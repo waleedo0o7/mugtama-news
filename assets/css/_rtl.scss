@@ -1,0 +1,36 @@
+html[dir="rtl"] {
+    body {
+        text-align: right;
+    }
+
+    .co-top-nav-menu {
+        nav ul li {
+            float: right;
+        }
+        nav ul ul li.has-child > a:after {
+            content: "\f053";
+        }
+        nav ul ul ul {
+            left: unset;
+            right: 100%;
+        }
+    }
+
+    .co-input-with-btn .button {
+        right: unset;
+        left: 0;
+    }
+
+    .fa-chevron-left:before {
+        content: "\f054";
+    }
+
+    .fa-chevron-right:before {
+        content: "\f053";
+    }
+
+    .latest-news-bar-slider .co-arrows {
+        right: unset;
+        left: -1px;
+    }
+}

@@ -1,0 +1,562 @@
+<?php include 'layout-header.php'; ?>
+
+<main class="main">
+
+    <section class="co-intro-section mb-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="co-authors">
+
+                        <div class="co-section-title mb-3">
+                            <p class="title"> كُتّاب المجتمع </p>
+                        </div><!-- co-section-title -->
+
+                        <div class="authors-list">
+
+                            <?php foreach (range(0, 3) as $i) { ?>
+
+                                <div class="one-author ">
+                                    <div class="co-image">
+                                        <img src="assets/images/author.jpg" class="img-fluid">
+                                    </div><!-- co-image -->
+                                    <div class="co-details">
+                                        <p class="name m-0  bold"> د. على الصلابي </p>
+                                        <p class="description m-0 small"> كاتب ومؤرخ ومحلل سياسي ليبي </p>
+                                    </div><!-- co-details -->
+                                </div><!-- one-author -->
+
+                            <?php } ?>
+                        </div><!-- authors-list -->
+
+
+
+                    </div><!-- co-authors -->
+                </div><!-- col-md-3 -->
+
+                <div class="col-md-6">
+                    <div class="co-sliders">
+                        <div class="co-primary-slider mb-3">
+
+                            <div class="co-swiper-slider">
+
+                                <div class="swiper primary-swiper">
+                                    <div class="swiper-wrapper">
+
+                                        <?php foreach (range(0, 3) as $i) { ?>
+                                            <div class="swiper-slide">
+                                                <div class="slide-content one-news-style-1">
+                                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image">
+
+                                                </div>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div> <!-- swiper-wrapper -->
+
+                                    <div class="swiper-pagination primary-swiper-pagination"></div>
+                                </div> <!-- swiper primary-swiper -->
+
+
+                            </div> <!-- co-swiper-slider -->
+                        </div><!-- co-primary-slider -->
+
+                        <div class="co-default-slider">
+                            <div class="co-swiper-slider">
+                                <div class="swiper default-swiper">
+                                    <div class="swiper-wrapper">
+                                        <?php foreach (range(0, 5) as $i) { ?>
+                                            <div class="swiper-slide">
+                                                <div class="slide-content one-news-style-2">
+                                                    <img src="assets/images/secondary-slider.jpg" class="img-fluid image">
+                                                    <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                                    <p class="date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                                </div>
+                                            </div>
+                                        <?php } ?>
+                                    </div> <!-- swiper-wrapper -->
+                                    <div class="co-default-swiper-navigation">
+                                        <div class="swiper-button-prev default-swiper-button-prev">
+                                        </div>
+                                        <div class="swiper-button-next default-swiper-button-next">
+                                        </div>
+                                    </div> <!-- co-default-swiper-navigation -->
+
+                                </div> <!-- swiper secondary-swiper -->
+
+                            </div> <!-- co-swiper-slider -->
+                        </div><!-- co-default-slider -->
+
+                    </div><!-- co-slider -->
+                </div><!-- col-md-3 -->
+
+                <div class="col-md-3">
+                    <div class="co-latest-news">
+
+                        <div class="co-section-title mb-3">
+                            <p class="title"> جديد الموضوعات </p>
+                        </div><!-- co-section-title -->
+
+                        <div class="latest-news-list">
+                            <div class="one-latest-news one-news-style-3">
+                                <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+                                <a href="#" class="category"> الأسلام والحياة </a>
+                                <div class="d-flex">
+                                    <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                    <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                </div>
+                            </div><!-- one-latest-news -->
+
+                            <div class="one-latest-news one-news-style-3">
+                                <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+                                <a href="#" class="category"> الأسلام والحياة </a>
+                                <div class="d-flex">
+                                    <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                    <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                </div>
+                            </div><!-- one-latest-news -->
+
+
+                        </div><!-- latest-news-list -->
+
+                    </div><!-- co-latest -->
+                </div><!-- col-md-3 -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- co-intro-section -->
+
+    <section class="co-media section-bg-dark py-5">
+        <div class="container">
+            <div class="co-section-title mb-5">
+                <p class="title"> ميديا المجتمع </p>
+                <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right ms-2"></i> </a>
+            </div><!-- co-section-title -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="one-media">
+                        <div class="co-image">
+                            <img src="assets/images/media5.jpg" class="img-fluid image">
+                            <a href="#" class="overlay">
+                                <i class="fa fa-play"></i>
+                            </a> <!-- overlay -->
+                        </div> <!-- co-image -->
+                        <div class="details">
+                            <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
+                            <div class="d-flex">
+                                <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                            </div>
+                        </div><!-- details -->
+                    </div> <!-- one-media -->
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="one-media">
+                        <div class="co-image">
+                            <img src="assets/images/media6.jpg" class="img-fluid image">
+                            <a href="#" class="overlay">
+                                <i class="fa fa-play"></i>
+                            </a> <!-- overlay -->
+                        </div> <!-- co-image -->
+                        <div class="details">
+                            <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
+                            <div class="d-flex">
+                                <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                            </div>
+                        </div><!-- details -->
+                    </div> <!-- one-media -->
+                </div>
+
+                <?php foreach (range(0, 2) as $i) { ?>
+                    <div class="col-md-4 mb-3">
+                        <div class="one-media">
+                            <div class="co-image">
+                                <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
+                                <a href="#" class="overlay">
+                                    <i class="fa fa-play"></i>
+                                </a> <!-- overlay -->
+                            </div> <!-- co-image -->
+                            <div class="details">
+                                <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
+                                <div class="d-flex">
+                                    <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                    <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                </div>
+                            </div><!-- details -->
+                        </div> <!-- one-media -->
+                    </div>
+
+                <?php } ?>
+
+            </div>
+        </div>
+    </section><!-- co-media -->
+
+    <section class="banner py-5">
+        <div class="container">
+            <a href="#"><img src="assets/images/banner-01.jpg" class="img-fluid border-radius-30"></a>
+        </div>
+    </section> <!-- banner -->
+
+    <section class="co-most-views section-bg-gray py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="co-section-title mb-5">
+                        <p class="title"> الأكثر قراءة </p>
+                    </div><!-- co-section-title -->
+
+                    <div class="row">
+                        <?php foreach (range(0, 3) as $i) { ?>
+                            <div class="col-md-6 mb-3">
+                                <div class="one-news-style-1 large-image">
+                                    <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                    <div class="details">
+                                        <div class="d-flex">
+                                            <p class="date small color-white me-2 mb-1"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                            <p class="views small color-white mb-1"> <i class="fa fa-eye"></i> 150 </p>
+                                        </div>
+                                    </div><!-- details -->
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+
+                </div> <!-- col -->
+                <div class="col-md-4">
+                    <div class="memories card-colored">
+
+                        <div class="card-header">
+                            <p class="m-0"> من ذاكرة "المجتمع" </p>
+                        </div><!-- card-header -->
+
+                        <div class="card-content">
+                            <div class="memories-news-list">
+                                <?php foreach (range(0, 4) as $i) { ?>
+                                    <div class="one-news-style-4 p-2">
+                                        <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                        <div class="details">
+                                            <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                            <div class="d-flex">
+                                                <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                                <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                            </div>
+                                        </div><!-- details -->
+                                    </div> <!-- one-news-style-4 -->
+                                <?php } ?>
+                            </div> <!-- memories-news-list -->
+                        </div><!-- card-content -->
+
+                        <div class="card-footer">
+                            <a href="#" class="m-0"> مشاهدة المزيد </a>
+                        </div><!-- card-footer -->
+
+                    </div>
+                </div> <!-- col -->
+            </div>
+        </div>
+
+    </section><!-- most-views -->
+
+    <section class="co-blog pt-5 pb-1">
+
+        <div class="container">
+
+
+            <div class="co-section-title mb-5">
+                <p class="title"> مُدونة المجتمع </p>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right ms-2"></i> </a>
+            </div><!-- co-section-title -->
+
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-swiper">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 5) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content one-news-style-2">
+                                        <img src="assets/images/blog.jpg" class="img-fluid image">
+                                        <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                        <div class="d-flex">
+                                            <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                            <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+
+
+        </div>
+
+
+    </section><!-- co-blog -->
+
+    <section class="co-files pt-4 pb-1">
+
+        <div class="container">
+
+            <div class="co-section-title mb-3">
+                <p class="title"> ملفات خاصة </p>
+            </div><!-- co-section-title -->
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-swiper">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 5) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content one-image-card">
+                                        <a href="#"><img src="assets/images/file.jpg" class="img-fluid image border-radius-10"></a>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+        </div> <!-- container -->
+    </section><!-- co-files -->
+
+    <section class="co-editions pt-4 pb-1">
+
+        <div class="container">
+
+            <div class="co-section-title mb-3">
+                <p class="title"> إصدارات </p>
+            </div><!-- co-section-title -->
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-swiper">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 5) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content one-news-style-2">
+                                        <img src="assets/images/editions.jpg" class="img-fluid image">
+                                        <p class="title bold mb-1"> 6 تحديات في مواجهة الهوية الدينية والقيمية للأسرة الكويتية </p>
+                                        <div class="d-flex">
+                                            <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                            <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+        </div> <!-- container -->
+    </section><!-- co-editions -->
+
+    <section class="co-quotes pt-4 pb-4">
+
+        <div class="container">
+
+            <div class="co-section-title mb-3">
+                <p class="title"> راوئع المقولات </p>
+            </div><!-- co-section-title -->
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-swiper">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 5) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content one-news-style-2">
+                                        <img src="assets/images/quotes.jpg" class="img-fluid image">
+                                        <p class="title bold mb-1"> إنكم تُناوئون أمة قد ضربها الله بالذل والصغار </p>
+                                        <div class="d-flex">
+                                            <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                            <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+        </div> <!-- container -->
+    </section><!-- co-editions -->
+
+    <div class="co-muslims section-bg-gray py-5">
+        <div class="container">
+
+            <div class="co-section-title mb-3">
+                <p class="title"> مسلمون حول العالم </p>
+            </div><!-- co-section-title -->
+
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="co-primary-slider mb-3">
+
+                        <div class="co-swiper-slider">
+
+                            <div class="swiper primary-swiper large">
+                                <div class="swiper-wrapper">
+
+                                    <?php foreach (range(0, 3) as $i) { ?>
+                                        <div class="swiper-slide">
+                                            <div class="slide-content one-news-style-1">
+                                                <img src="assets/images/muslims.jpg" class="img-fluid image">
+                                            </div>
+                                        </div>
+                                    <?php } ?>
+
+                                </div> <!-- swiper-wrapper -->
+
+                                <div class="swiper-pagination primary-swiper-pagination"></div>
+                            </div> <!-- swiper primary-swiper -->
+
+
+                        </div> <!-- co-swiper-slider -->
+                    </div><!-- co-primary-slider -->
+
+                </div>
+                <div class="col-md-4">
+
+
+
+
+
+
+
+                    <div class="card-colored">
+
+                        <div class="card-header">
+                            <p class="m-0"> اقرأ "المجتمع" PDF </p>
+                        </div><!-- card-header -->
+
+                        <div class="card-content">
+                            <a href="#"><img src="assets/images/pdf-book.jpg" class="img-fluid image" alt=""></a>
+                        </div><!-- card-content -->
+
+
+                        <div class="co-btns">
+                            <a href="#" class="btn btn-sm btn-light"> <i class="fas fa-cloud-download-alt"></i> أرشيف أعداد المجلة </a>
+                            <a href="#" class="btn btn-sm btn-dark"> <i class="fas fa-book-open"></i> قراءة </a>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div><!-- container -->
+    </div><!-- co-muslims -->
+
+    <section class="banner py-5">
+        <div class="container">
+            <a href="#"><img src="assets/images/banner-02.jpg" class="img-fluid border-radius-30"></a>
+        </div>
+    </section> <!-- banner -->
+
+    <div class="co-muslims pt-4 pb-4">
+        <div class="container">
+
+            <div class="co-section-title mb-3">
+                <p class="title"> إنفوجراف </p>
+            </div><!-- co-section-title -->
+
+
+
+
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="row">
+                        <?php foreach (range(0, 3) as $i) { ?>
+                            <div class="col-md-6 mb-4">
+                                <div class="one-news-style-1 x-large-image">
+                                    <img src="assets/images/infograph<?php echo $i ?>.jpg" class="img-fluid image ">
+                                    <div class="details">
+                                        <p class="date small mb-0"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                    </div><!-- details -->
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="co-follow-us">
+                        <div class="text-center">
+                            <h3 class=""> تابعنا </h3>
+                            <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
+                        </div>
+
+
+                        <ul class="reset-list social-media-icons-colored mb-4">
+                            <li><a href="#" class="color-black facebook"> <i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href="#" class="color-black twitter"> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
+                            <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
+                            <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
+                        </ul>
+
+                    </div><!-- co-follow-us -->
+                    <div class="co-adv">
+                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 "> </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div><!-- container -->
+    </div><!-- co-muslims -->
+
+</main> <!-- main -->
+
+<?php include 'layout-footer.php'; ?>
