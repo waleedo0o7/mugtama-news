@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #5c8b69;
-    --color-primary-dark: #457452;
-    --color-secondary: #e51f25;
-    --color-secondary-dark: #c6141a;
+    --color-primary: #5a8966;
+    --color-primary-dark: #32603d;
+    --color-secondary: #263248;
+    --color-secondary-dark: #182132;
     --color-light-gray: #f0f1f4a3;
     --color-gray: #e0e6ef;
     --color-dark-gray: #bdc6d4;
@@ -15,17 +15,7 @@
     --swiper-pagination-color: var(--color-light-gray);
 }
 
-// @font-face {
-//     font-family: "DroidArabicKufi";
-//     src: url(../fonts/Droid.Arabic.Kufi_regular.ttf);
-//     font-weight: normal;
-// }
-
-// @font-face {
-//     font-family: "DroidArabicKufi";
-//     src: url(../fonts/Droid.Arabic.Kufi_bold.ttf);
-//     font-weight: bold;
-// }
+ 
 
 body {
     font-size: 14px;
@@ -44,6 +34,12 @@ body {
 
 .bg-primary {
     background-color: var(--color-primary) !important;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color:  var(--color-primary) !important;
+    border-color:  var(--color-primary) !important;
 }
 
 .bg-secondary {
@@ -131,6 +127,7 @@ a {
 
     &.color-white {
         color: #fff;
+
         &:hover {
             color: #fff;
         }
@@ -140,6 +137,7 @@ a {
         color: var(--color-primary-dark);
     }
 }
+
 //
 
 .btn {
@@ -162,6 +160,7 @@ a {
     color: #fff;
     background-color: var(--color-secondary);
     border-color: var(--color-secondary);
+
     &:hover {
         color: var(--color-secondary-dark);
         background-color: #fff;
@@ -172,6 +171,10 @@ a {
 .btn:focus,
 .btn.focus {
     box-shadow: none !important;
+}
+
+.border-radius-0 {
+    border-radius: 0 !important;
 }
 
 .btn-action {
@@ -190,6 +193,7 @@ a {
     font-weight: 400;
     color: var(--color-primary);
     text-decoration: none;
+
     &:hover {
         color: var(--color-primary);
     }
@@ -198,9 +202,11 @@ a {
 .form-control {
     box-shadow: none !important;
     border-radius: 8px;
+
     &:focus {
         border-color: var(--color-primary);
     }
+
     &::placeholder {
         font-size: smaller;
     }

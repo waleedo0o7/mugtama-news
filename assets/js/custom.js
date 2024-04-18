@@ -1,6 +1,7 @@
 $(function () {
     initPrimarySlider();
     initDefaultSlider();
+    toggleMobileMenu();
 });
 
 function initDefaultSlider() {
@@ -46,4 +47,10 @@ function initPrimarySlider() {
 
     });
 }
- 
+
+
+function toggleMobileMenu() {
+    $(".open-mobile-menu").on("click", function(){
+        $(".top-nav-wrapper").toggleClass("show");
+    });
+}

@@ -3,47 +3,7 @@
 .container {
     max-width: 1300px;
 }
-
-.co-top-bar {
-    .co-input-with-btn {
-        .search {
-            background-color: #ededed;
-        }
-        .btn-action {
-            border-radius: 7px;
-            width: 36px;
-            height: 36px;
-            font-size: 14px;
-            background-color: transparent;
-        }
-    }
-
-    .header-widget {
-        border-inline-start: 1px solid #c7c7c7;
-        padding-inline-start: 10px;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        &:first-child {
-            border-inline-start: none;
-        }
-    }
-}
-
-.top-header {
-    padding: 20px 110px 1px 110px;
-
-    .co-logo {
-        img {
-            width: 120px;
-        }
-    }
-    .co-menu {
-    }
-}
-
+ 
 .co-section-title {
     position: relative;
     border-bottom: 1px solid var(--color-gray);
@@ -343,7 +303,6 @@
     }
 }
 
-
 .social-media-links {
     &.links-lg {
         .link {
@@ -409,7 +368,6 @@ ul.latest-news-list {
         margin-bottom: 5px;
     }
 }
-
 
 .one-media {
     .co-image {

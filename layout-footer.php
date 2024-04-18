@@ -44,14 +44,10 @@
 
                     <h5 class="title color-white mb-4"> اشترك فى النشرة البريدية </h5>
 
-
-
                     <div class="form-group co-input-with-btn mb-2">
                         <input type="text" class="form-control" placeholder="search">
                         <button class="btn btn-primary action-btn button"> اشتراك </button>
                     </div>
-
-
 
                 </div> <!-- footer-widget -->
 

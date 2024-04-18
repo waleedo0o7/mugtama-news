@@ -1,0 +1,34 @@
+// large screen +1200
+@media all and (min-width: 1200px) {}
+
+// large screen +1200
+@media all and (min-width: 767px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .mobile-menu{
+        display: none;
+    }
+}
+// from 1200 to 0
+@media all and (max-width: 1200px) {}
+
+// from 992 to 0
+@media all and (max-width: 992px) {
+    .top-bar , .logo-and-banner-wrapper , .top-nav-wrapper{
+        display: none;
+    }
+}
+
+// from 767 to 0
+@media all and (max-width: 767px) {}
+
+// from 450 to 0
+@media all and (max-width: 450px) {}
+
+// from 320 to 0
+@media all and (max-width: 320px) {}

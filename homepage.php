@@ -2,6 +2,57 @@
 
 <main class="main">
 
+
+    <section class="mb-3">
+        <div class="container">
+            <div class="co-latest-news-and-visit-site row ">
+                <div class="col-md-9 co-latest-news-bar-slider">
+
+                    <div id="latest-news-bar-slider" class="carousel slide latest-news-bar-slider" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-item-content">
+                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                </div> <!-- d-flex -->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item-content">
+                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                </div> <!-- d-flex -->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-item-content">
+                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                </div> <!-- d-flex -->
+                            </div>
+                        </div>
+
+                        <div class="co-arrows">
+                            <a class="slider-arrow prev" href="#latest-news-bar-slider" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left"></i>
+                            </a>
+                            <a class="slider-arrow next" href="#latest-news-bar-slider" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right"></i>
+                            </a>
+                        </div>
+
+                    </div> <!-- latest-news-bar-slider -->
+
+                </div><!-- co-latest-news-bar-slider -->
+
+                <div class="col-md-3 co-visit-site">
+                    <a href="#">
+                        <img src="assets/images/en.jpg" class="img-fluid banner">
+                    </a>
+                </div><!-- co-visit-site -->
+
+            </div><!-- co-latest-news-and-visit-site row-->
+        </div><!-- container -->
+    </section><!-- mb-3 -->
+
     <section class="co-intro-section mb-4">
         <div class="container">
             <div class="row">
