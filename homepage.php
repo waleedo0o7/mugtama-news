@@ -6,25 +6,25 @@
     <section class="mb-3">
         <div class="container">
             <div class="co-latest-news-and-visit-site row ">
-                <div class="col-md-9 co-latest-news-bar-slider">
+                <div class="col-md-9 co-latest-news-bar-slider mb-4 mb-md-0">
 
                     <div id="latest-news-bar-slider" class="carousel slide latest-news-bar-slider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
                             <div class="carousel-item">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
                             <div class="carousel-item">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="https://mugtama.com/12/318627/">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
@@ -44,7 +44,7 @@
                 </div><!-- co-latest-news-bar-slider -->
 
                 <div class="col-md-3 co-visit-site">
-                    <a href="#">
+                    <a href="homepage.php">
                         <img src="assets/images/en.jpg" class="img-fluid banner">
                     </a>
                 </div><!-- co-visit-site -->
@@ -58,7 +58,7 @@
             <div class="row">
 
                 <div class="col-md-3">
-                    <div class="co-authors">
+                    <div class="co-authors mb-4 mb-md-0">
 
                         <div class="co-section-title mb-3">
                             <p class="title"> كُتّاب المجتمع </p>
@@ -68,12 +68,16 @@
 
                             <?php foreach (range(0, 3) as $i) { ?>
 
-                                <div class="one-author ">
+                                <div class="one-author">
                                     <div class="co-image">
-                                        <img src="assets/images/author.jpg" class="img-fluid">
+                                        <a href="author-single.php">
+                                            <img src="assets/images/author.jpg" class="img-fluid">
+                                        </a>
                                     </div><!-- co-image -->
                                     <div class="co-details">
-                                        <p class="name m-0  bold"> د. على الصلابي </p>
+                                        <a href="author-single.php">
+                                            <p class="color-black name m-0 bold"> د. على الصلابي </p>
+                                        </a>
                                         <p class="description m-0 small"> كاتب ومؤرخ ومحلل سياسي ليبي </p>
                                     </div><!-- co-details -->
                                 </div><!-- one-author -->
@@ -99,7 +103,6 @@
                                             <div class="swiper-slide">
                                                 <div class="slide-content one-news-style-1">
                                                     <img src="assets/images/primary-slider.jpg" class="img-fluid image">
-
                                                 </div>
                                             </div>
                                         <?php } ?>
@@ -151,21 +154,33 @@
 
                         <div class="latest-news-list">
                             <div class="one-latest-news one-news-style-3">
-                                <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+
+                                <a href="#">
+                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+                                </a>
+
                                 <a href="#" class="category"> الأسلام والحياة </a>
+
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                     <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
                                 </div>
+
                             </div><!-- one-latest-news -->
 
                             <div class="one-latest-news one-news-style-3">
-                                <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+
+                                <a href="#">
+                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+                                </a>
+
                                 <a href="#" class="category"> الأسلام والحياة </a>
+
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                     <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
                                 </div>
+
                             </div><!-- one-latest-news -->
 
 
@@ -188,7 +203,9 @@
                 <div class="col-md-6 mb-3">
                     <div class="one-media">
                         <div class="co-image">
-                            <img src="assets/images/media5.jpg" class="img-fluid image">
+                            <a href="#">
+                                <img src="assets/images/media5.jpg" class="img-fluid image">
+                            </a>
                             <a href="#" class="overlay">
                                 <i class="fa fa-play"></i>
                             </a> <!-- overlay -->
@@ -206,7 +223,9 @@
                 <div class="col-md-6 mb-3">
                     <div class="one-media">
                         <div class="co-image">
-                            <img src="assets/images/media6.jpg" class="img-fluid image">
+                            <a href="#">
+                                <img src="assets/images/media6.jpg" class="img-fluid image">
+                            </a>
                             <a href="#" class="overlay">
                                 <i class="fa fa-play"></i>
                             </a> <!-- overlay -->
@@ -225,7 +244,9 @@
                     <div class="col-md-4 mb-3">
                         <div class="one-media">
                             <div class="co-image">
-                                <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
+                                <a href="#">
+                                    <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
+                                </a>
                                 <a href="#" class="overlay">
                                     <i class="fa fa-play"></i>
                                 </a> <!-- overlay -->
@@ -332,7 +353,9 @@
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-news-style-2">
-                                        <img src="assets/images/blog.jpg" class="img-fluid image">
+                                        <a href="blog-single">
+                                            <img src="assets/images/blog.jpg" class="img-fluid image">
+                                        </a>
                                         <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
                                         <div class="d-flex">
                                             <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>

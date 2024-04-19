@@ -77,12 +77,16 @@
 
                 <div class="col-md-3">
                     <div class="co-logo me-3">
-                        <img src="assets/images/logo.png" class="img-fluid logo">
+                        <a href="homepage.php?dir=rtl">
+                            <img src="assets/images/logo.png" class="img-fluid logo">
+                        </a>
                     </div> <!-- co-logo -->
                 </div> <!-- col-md-4 -->
 
                 <div class="col-md-9">
-                    <img src="assets/images/banner-1.png" class="img-fluid banner">
+                    <a href="#">
+                        <img src="assets/images/banner-1.png" class="img-fluid banner">
+                    </a>
                 </div> <!-- col-md-8 -->
 
             </div> <!-- row -->
@@ -146,13 +150,11 @@
         </div>
     </div>
 
-
     <div class="mobile-menu mb-3">
 
-
-        <div class="row  m-0 mb-2">
+        <div class="row m-0 mb-2">
             <div class="col-4 d-inline-flex justify-content-center align-items-center">
-                <div class="menu-btn open-mobile-menu">
+                <div class="menu-btn" id="openMenu">
                     <i class="fa fa-bars mobile-bar-icon"></i>
                 </div><!-- menu-btn -->
             </div>
@@ -162,7 +164,7 @@
                 </div> <!-- logo -->
             </div>
             <div class="col-4 d-inline-flex justify-content-center align-items-center">
-                <div class="search">
+                <div class="search" id="openSearch">
                     <i class="fa fa-search mobile-bar-icon"></i>
                 </div> <!-- search -->
             </div>
@@ -173,7 +175,7 @@
         <div class="row m-0">
 
             <div class="col-4 d-inline-flex justify-content-center align-items-center">
-                <a href="#" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-envelope me-1"></i> ارسل مقالا </a>
+                <a href="#" class="btn btn-primary mx-2 py-2 border-radius-0"> ارسل مقالا </a>
             </div>
 
             <div class="col-4 d-inline-flex justify-content-center align-items-center flex-column">
@@ -187,17 +189,66 @@
             </div>
 
             <div class="col-4 d-inline-flex justify-content-center align-items-center">
-                <a href="#">
+                <a href="homepage.php" class="banner-link">
                     <img src="assets/images/en.jpg" class="img-fluid banner">
                 </a>
             </div>
         </div>
 
-
-
-
-
-
-
-
     </div><!-- mobile-menu -->
+
+    <div class="co-mobile-menu" id="mobileMenu">
+        <nav class="nav-drill">
+
+            <a href="#" id="closeMenu">
+                <i class="fa fa-times"></i>
+            </a>
+
+            <ul class="nav-items nav-level-1">
+
+                <li class="nav-item"><a class="nav-link" href="#"> الرئيسية </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> الكويت </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> الأسرة </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> قضايا المجتمع </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> الإسلام والحياة </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> مسلمون حول العالم </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> تقارير وحوارات </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> القضية الفلسطينية </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> مرئيات </a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> استشارات </a></li>
+
+                <li class="nav-item nav-expand">
+
+                    <a class="nav-link nav-expand-link" href="#"> المزيد </a>
+
+                    <ul class="nav-items nav-expand-content">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> المزيد </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> المزيد </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> المزيد </a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div> <!-- co-mobile-menu -->
+
+    <div class="co-mobile-search-wrapper" id="mobile-search">
+
+        <a href="#" id="closeSearch">
+            <i class="fa fa-times"></i>
+        </a>
+
+        <div class="form-group w-100 p-3 m-0">
+            <input type="text" class="form-control m-0" placeholder="بحث" />
+        </div>
+
+    </div> <!-- co-mobile-search-wrapper -->
