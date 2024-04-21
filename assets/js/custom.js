@@ -1,7 +1,6 @@
 $(function () {
     initPrimarySlider();
     initDefaultSlider();
-    toggleMobileMenu();
 });
 
 function initDefaultSlider() {
@@ -49,71 +48,58 @@ function initPrimarySlider() {
 }
 
 
-// function toggleMobileMenu() {
-//     $(".open-mobile-menu").on("click", function () {
-//         $(".top-nav-wrapper").toggleClass("show");
-//     });
-// }
-
-
-
-
-
-
-
 // mobile menu start
 
-jQuery(document).ready(function ($) { 
+jQuery(document).ready(function ($) {
 
-    // MOBILE MENU EVENTS
     const openMenuBtn = document.getElementById("openMenu");
     const closeMenuBtn = document.getElementById("closeMenu");
-  
+
     openMenuBtn.addEventListener("click", function (e) {
-      e.preventDefault();
-      $("#mobileMenu").fadeIn("fast");
+        e.preventDefault();
+        $("#mobileMenu").fadeIn(0);
     });
-  
+
     closeMenuBtn.addEventListener("click", function (e) {
-      e.preventDefault();
-      $("#mobileMenu").fadeOut("fast");
+        e.preventDefault();
+        $("#mobileMenu").fadeOut(0);
     });
-  
-    // RENDER MOBILE MENU
+
     mobileNavMenuRender();
 
-
-    $("#openSearch").on("click" , function(){
-        $(".co-mobile-search-wrapper").css("display","flex");
+    $("#openSearch").on("click", function () {
+        $(".co-mobile-search-wrapper").css("display", "flex");
     });
 
-    $("#closeSearch").on("click" , function(){
-        $(".co-mobile-search-wrapper").css("display","none");
+    $("#closeSearch").on("click", function () {
+        $(".co-mobile-search-wrapper").css("display", "none");
     });
-   
-  });
-   
-  
-  function mobileNavMenuRender() {
+
+});
+
+
+function mobileNavMenuRender() {
     const navExpand = [].slice.call(document.querySelectorAll(".nav-expand"));
-    const backLink = `<li class="nav-item">
-      <a class="nav-link nav-back-link" href="javascript:;">
-          رجوع
-      </a>
-  </li>`;
-  
+    const backLink =
+        `  <li class="nav-item">
+                            <a class="nav-link nav-back-link" href="javascript:;">
+                                رجوع
+                            </a>
+                        </li>
+                    `;
+
     navExpand.forEach((item) => {
-      item
-          .querySelector(".nav-expand-content")
-          .insertAdjacentHTML("afterbegin", backLink);
-      item
-          .querySelector(".nav-link")
-          .addEventListener("click", () => item.classList.add("active"));
-      item
-          .querySelector(".nav-back-link")
-          .addEventListener("click", () => item.classList.remove("active"));
+        item
+            .querySelector(".nav-expand-content")
+            .insertAdjacentHTML("afterbegin", backLink);
+        item
+            .querySelector(".nav-link")
+            .addEventListener("click", () => item.classList.add("active"));
+        item
+            .querySelector(".nav-back-link")
+            .addEventListener("click", () => item.classList.remove("active"));
     });
-  
-  }
-  
+
+}
+
 // mobile menu end

@@ -71,7 +71,7 @@
 
     </div> <!-- top-bar -->
 
-    <div class="logo-and-banner-wrapper mb-3">
+    <div class="logo-and-banner-wrapper mb-4">
         <div class="container">
             <div class="row">
 
@@ -152,24 +152,23 @@
 
     <div class="mobile-menu mb-3">
 
-        <div class="row m-0 mb-2">
-            <div class="col-4 d-inline-flex justify-content-center align-items-center">
+        <div class="row m-0 mb-3">
+            <div class="col-2 d-inline-flex justify-content-center align-items-center">
                 <div class="menu-btn" id="openMenu">
                     <i class="fa fa-bars mobile-bar-icon"></i>
                 </div><!-- menu-btn -->
             </div>
-            <div class="col-4 d-inline-flex justify-content-center align-items-center flex-column">
-                <div class="logo mb-3">
-                    <img src="assets/images/logo-sm--light.png" class="img-fluid">
+            <div class="col-8 d-inline-flex justify-content-center align-items-center flex-column">
+                <div class="co-logo">
+                    <img src="assets/images/logo.png" class="img-fluid logo">
                 </div> <!-- logo -->
             </div>
-            <div class="col-4 d-inline-flex justify-content-center align-items-center">
+            <div class="col-2 d-inline-flex justify-content-center align-items-center">
                 <div class="search" id="openSearch">
                     <i class="fa fa-search mobile-bar-icon"></i>
                 </div> <!-- search -->
             </div>
         </div>
-
 
 
         <div class="row m-0">

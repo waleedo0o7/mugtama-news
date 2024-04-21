@@ -2,29 +2,34 @@
 
 <main class="main">
 
-
     <section class="mb-3">
         <div class="container">
-            <div class="co-latest-news-and-visit-site row ">
-                <div class="col-md-9 co-latest-news-bar-slider mb-4 mb-md-0">
+            <div class="co-latest-news-and-visit-site row">
+                <div class="col-lg-9 co-latest-news-bar-slider mb-4 mb-lg-0">
 
                     <div id="latest-news-bar-slider" class="carousel slide latest-news-bar-slider" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="bar-slider-title" href="blog-single.php">
+                                        7 دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج
+                                    </a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
                             <div class="carousel-item">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="bar-slider-title" href="blog-single.php">
+                                        7 دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج
+                                    </a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
                             <div class="carousel-item">
                                 <div class="carousel-item-content">
-                                    <a class="color-black me-2" href="blog-single.php">7 دروس للشباب من رحلة الإسراء والمعراج</a>
+                                    <a class="bar-slider-title" href="blog-single.php">
+                                        7 دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج دروس للشباب من رحلة الإسراء والمعراج
+                                    </a>
                                     <p class="m-0 date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                 </div> <!-- d-flex -->
                             </div>
@@ -43,9 +48,15 @@
 
                 </div><!-- co-latest-news-bar-slider -->
 
-                <div class="col-md-3 co-visit-site">
+                <div class="col-lg-3 co-visit-site">
                     <a href="homepage.php">
-                        <img src="assets/images/en.jpg" class="img-fluid banner">
+
+
+                        <picture class="banner">
+                            <source media="(min-width: 992px)" srcset="assets/images/en.jpg">
+                            <img src="assets/images/banner-02.jpg">
+                        </picture>
+
                     </a>
                 </div><!-- co-visit-site -->
 
@@ -57,7 +68,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-md-3">
+                <div class="col-lg-3 d-none d-lg-block">
                     <div class="co-authors mb-4 mb-md-0">
 
                         <div class="co-section-title mb-3">
@@ -66,7 +77,7 @@
 
                         <div class="authors-list">
 
-                            <?php foreach (range(0, 3) as $i) { ?>
+                            <?php foreach (range(0, 4) as $i) { ?>
 
                                 <div class="one-author">
                                     <div class="co-image">
@@ -88,9 +99,9 @@
 
 
                     </div><!-- co-authors -->
-                </div><!-- col-md-3 -->
+                </div><!-- col-lg-3 -->
 
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="co-sliders">
                         <div class="co-primary-slider mb-3">
 
@@ -102,7 +113,7 @@
                                         <?php foreach (range(0, 3) as $i) { ?>
                                             <div class="swiper-slide">
                                                 <div class="slide-content one-news-style-1">
-                                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image">
+                                                    <img src="assets/images/slider-01.jpg" class="img-fluid image">
                                                 </div>
                                             </div>
                                         <?php } ?>
@@ -143,9 +154,10 @@
                         </div><!-- co-default-slider -->
 
                     </div><!-- co-slider -->
-                </div><!-- col-md-3 -->
 
-                <div class="col-md-3">
+                </div><!-- col-lg-3 -->
+
+                <div class="col-lg-3">
                     <div class="co-latest-news">
 
                         <div class="co-section-title mb-3">
@@ -153,6 +165,22 @@
                         </div><!-- co-section-title -->
 
                         <div class="latest-news-list">
+
+                            <div class="one-latest-news one-news-style-3">
+
+                                <a href="#">
+                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
+                                </a>
+
+                                <a href="#" class="category"> الأسلام والحياة </a>
+
+                                <div class="d-flex">
+                                    <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                    <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                </div>
+
+                            </div><!-- one-latest-news -->
+
                             <div class="one-latest-news one-news-style-3">
 
                                 <a href="#">
@@ -182,15 +210,17 @@
                                 </div>
 
                             </div><!-- one-latest-news -->
-
 
                         </div><!-- latest-news-list -->
 
                     </div><!-- co-latest -->
-                </div><!-- col-md-3 -->
+
+                </div><!-- col-lg-3 -->
 
             </div><!-- row -->
+
         </div><!-- container -->
+
     </section><!-- co-intro-section -->
 
     <section class="co-media section-bg-dark py-5">
@@ -200,7 +230,7 @@
                 <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right ms-2"></i> </a>
             </div><!-- co-section-title -->
             <div class="row">
-                <div class="col-md-6 mb-3">
+                <div class="col-lg-6 mb-3">
                     <div class="one-media">
                         <div class="co-image">
                             <a href="#">
@@ -220,7 +250,7 @@
                     </div> <!-- one-media -->
                 </div>
 
-                <div class="col-md-6 mb-3">
+                <div class="col-lg-6 mb-3">
                     <div class="one-media">
                         <div class="co-image">
                             <a href="#">
@@ -241,7 +271,7 @@
                 </div>
 
                 <?php foreach (range(0, 2) as $i) { ?>
-                    <div class="col-md-4 mb-3">
+                    <div class="col-lg-4 mb-3">
                         <div class="one-media">
                             <div class="co-image">
                                 <a href="#">
@@ -276,7 +306,7 @@
     <section class="co-most-views section-bg-gray py-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
 
                     <div class="co-section-title mb-5">
                         <p class="title"> الأكثر قراءة </p>
@@ -284,7 +314,7 @@
 
                     <div class="row">
                         <?php foreach (range(0, 3) as $i) { ?>
-                            <div class="col-md-6 mb-3">
+                            <div class="col-lg-6 mb-3">
                                 <div class="one-news-style-1 large-image">
                                     <img src="assets/images/mostest.jpg" class="img-fluid image">
                                     <div class="details">
@@ -299,7 +329,7 @@
                     </div>
 
                 </div> <!-- col -->
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="memories card-colored">
 
                         <div class="card-header">
@@ -507,7 +537,7 @@
             </div><!-- co-section-title -->
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
 
                     <div class="co-primary-slider mb-3">
 
@@ -534,7 +564,7 @@
                     </div><!-- co-primary-slider -->
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
 
 
 
@@ -586,11 +616,11 @@
 
 
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-lg-8">
 
                     <div class="row">
                         <?php foreach (range(0, 3) as $i) { ?>
-                            <div class="col-md-6 mb-4">
+                            <div class="col-lg-6 mb-4">
                                 <div class="one-news-style-1 x-large-image">
                                     <img src="assets/images/infograph<?php echo $i ?>.jpg" class="img-fluid image ">
                                     <div class="details">
@@ -602,7 +632,7 @@
                     </div>
 
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <div class="co-follow-us">
                         <div class="text-center">
                             <h3 class=""> تابعنا </h3>

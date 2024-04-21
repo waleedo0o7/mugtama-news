@@ -18,7 +18,6 @@
 
 .co-primary-slider {
     .primary-swiper {
-        height: 280px;
 
         &.large {
             height: 415px;
@@ -131,6 +130,16 @@
             .carousel-item-content {
                 display: flex;
                 align-items: center;
+
+                .bar-slider-title{
+                    color: #000;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 1;
+                    -webkit-box-orient: vertical;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: calc(100% - 130px);
+                }
             }
         }
 
@@ -174,6 +183,8 @@
         }
     }
 }
+
+
 
 .co-video {
     border-radius: 15px;
@@ -267,8 +278,8 @@ nav.top-nav {
 
         .home-link {
             color: #FFF;
-            font-size: 20px;
-            padding: 18px 14px;
+            font-size: 22px;
+            padding: 19px 15px;
         }
 
     }
@@ -312,8 +323,9 @@ nav.top-nav {
 
             .nav-link {
                 color: #FFF;
-                padding: 10px 12px !important;
+                padding: 10px 17px !important;
                 position: relative;
+                font-size: 16px;
 
                 &:hover {
                     background: #5a8966;
@@ -353,13 +365,19 @@ nav.top-nav {
     }
 }
 
+.logo-and-banner-wrapper {
+    .logo {
+        width: 160px;
+    }
+}
+
 
 .mobile-menu {
-    background-color: var(--color-secondary);
+    background-color: var(--color-light-gray);
     padding: 10px;
 
     .logo {
-        width: 100px;
+        height: 90px;
     }
 
     .mobile-bar-icon {
@@ -368,12 +386,8 @@ nav.top-nav {
         padding: 10px;
     }
 
-
-
-
-
     .social-media-icons {
-        background: #fff;
+        background: #FFF;
 
         li {
             margin: 0;
@@ -605,7 +619,7 @@ $nav-level5-background-color: #444;
 }
 
 
-.co-mobile-search-wrapper{
+.co-mobile-search-wrapper {
     position: fixed;
     top: 0;
     left: 0;

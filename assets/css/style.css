@@ -637,9 +637,6 @@ footer .footer-widget .logo {
   color: #fff;
 }
 
-.co-primary-slider .primary-swiper {
-  height: 280px;
-}
 .co-primary-slider .primary-swiper.large {
   height: 415px;
 }
@@ -735,6 +732,15 @@ footer .footer-widget .logo {
 .co-latest-news-and-visit-site .latest-news-bar-slider .carousel-item .carousel-item-content {
   display: flex;
   align-items: center;
+}
+.co-latest-news-and-visit-site .latest-news-bar-slider .carousel-item .carousel-item-content .bar-slider-title {
+  color: #000;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: calc(100% - 130px);
 }
 .co-latest-news-and-visit-site .latest-news-bar-slider .co-arrows {
   position: absolute;
@@ -845,8 +851,8 @@ nav.top-nav .home-item {
 }
 nav.top-nav .home-item .home-link {
   color: #FFF;
-  font-size: 20px;
-  padding: 18px 14px;
+  font-size: 22px;
+  padding: 19px 15px;
 }
 nav.top-nav .navbar-collapse {
   border-bottom: 3px solid var(--color-primary);
@@ -877,8 +883,9 @@ nav.top-nav .navbar-nav .nav-item.dropdown .nav-link:after {
 }
 nav.top-nav .navbar-nav .nav-item .nav-link {
   color: #FFF;
-  padding: 10px 12px !important;
+  padding: 10px 17px !important;
   position: relative;
+  font-size: 16px;
 }
 nav.top-nav .navbar-nav .nav-item .nav-link:hover {
   background: #5a8966;
@@ -907,12 +914,16 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   color: #FFF;
 }
 
+.logo-and-banner-wrapper .logo {
+  width: 160px;
+}
+
 .mobile-menu {
-  background-color: var(--color-secondary);
+  background-color: var(--color-light-gray);
   padding: 10px;
 }
 .mobile-menu .logo {
-  width: 100px;
+  height: 90px;
 }
 .mobile-menu .mobile-bar-icon {
   background-color: #FFF;
@@ -920,7 +931,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   padding: 10px;
 }
 .mobile-menu .social-media-icons {
-  background: #fff;
+  background: #FFF;
 }
 .mobile-menu .social-media-icons li {
   margin: 0;
@@ -1119,9 +1130,30 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   .mobile-menu {
     display: none;
   }
+  .co-intro-section .col-lg-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .co-intro-section .col-lg-6 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .co-latest-news-and-visit-site .co-latest-news-bar-slider {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .co-latest-news-and-visit-site .co-visit-site {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .co-primary-slider .primary-swiper {
+    height: 410px;
+  }
 }
 @media all and (max-width: 992px) {
-  .top-bar, .logo-and-banner-wrapper, .top-nav-wrapper {
+  .top-bar,
+  .logo-and-banner-wrapper,
+  .top-nav-wrapper {
     display: none;
   }
 }
