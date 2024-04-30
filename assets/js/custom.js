@@ -1,13 +1,14 @@
 $(function () {
     initPrimarySlider();
     initDefaultSlider();
+    initDefaultFourItemsSlider();
 });
 
 function initDefaultSlider() {
     const swiper = new Swiper('.default-swiper', {
         direction: 'horizontal',
         loop: true,
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 20,
         navigation: {
             nextEl: '.default-swiper-button-next',
@@ -27,6 +28,34 @@ function initDefaultSlider() {
 
     });
 }
+
+
+function initDefaultFourItemsSlider() {
+    const swiper = new Swiper('.default-four-swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 2,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.default-swiper-button-next',
+            prevEl: '.default-swiper-button-prev',
+        },
+
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+            1200: {
+                slidesPerView: 4,
+                spaceBetween: 20,
+            },
+        }
+
+    });
+}
+
+
 
 function initPrimarySlider() {
     const swiper = new Swiper('.primary-swiper', {

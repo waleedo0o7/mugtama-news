@@ -7,7 +7,7 @@
 
                     <ul class="reset-list social-media-icons d-flex">
                         <li><a href="#" class="color-white me-3"> <i class="fab fa-facebook-f"></i> </a></li>
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-twitter"></i> </a></li>
+                        <li><a href="#" class="color-white me-3"> <i class="fab fa-x-twitter"></i> </a></li>
                         <li><a href="#" class="color-white me-3"> <i class="fab fa-youtube"></i> </a></li>
                         <li><a href="#" class="color-white me-3"> <i class="fab fa-instagram"></i> </a></li>
                         <li><a href="#" class="color-white me-3"> <i class="fab fa-telegram"></i> </a></li>

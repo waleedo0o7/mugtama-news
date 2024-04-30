@@ -59,35 +59,37 @@
         height: fit-content;
     }
 
-    .default-swiper {
+
+    .co-default-swiper-navigation {
         position: relative;
+        width: 100%;
         height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .co-default-swiper-navigation {
-            position: relative;
-            width: 100%;
-            height: fit-content;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 25px;
+        height: 25px;
+        border: 1px solid #c8c8c8;
+        position: relative;
+        left: unset;
+        right: unset;
+        margin: 5px;
 
-        .swiper-button-next,
-        .swiper-button-prev {
-            width: 25px;
-            height: 25px;
-            border: 1px solid #c8c8c8;
-            position: relative;
-            left: unset;
-            right: unset;
-            margin: 5px;
-
-            &:after {
-                font-size: 12px;
-                color: var(--color-primary);
-            }
+        &:after {
+            font-size: 12px;
+            color: var(--color-primary);
         }
     }
+}
+
+.default-swiper,
+.default-four-swiper {
+    position: relative;
+    height: fit-content;
 }
 
 .section-bg-gray {
@@ -98,17 +100,36 @@
     }
 }
 
+
 .section-bg-dark {
     background-color: #141414;
     color: #fff;
 
     .co-section-title {
         border-color: #fff;
+
+        &:after {
+            background-color: #fff;
+        }
     }
 
     a.title {
         color: #fff !important;
     }
+}
+
+.section-bg-dark-blue {
+    background-color: #37465F;
+    color: #fff;
+
+    .co-section-title {
+        border-color: #fff;
+
+        &:after {
+            background-color: #fff;
+        }
+    }
+
 }
 
 .co-latest-news-and-visit-site {
@@ -131,7 +152,7 @@
                 display: flex;
                 align-items: center;
 
-                .bar-slider-title{
+                .bar-slider-title {
                     color: #000;
                     display: -webkit-box;
                     -webkit-line-clamp: 1;
@@ -652,6 +673,20 @@ $nav-level5-background-color: #444;
     left: 0;
     color: #FFF;
 }
+
+
+.category-icon {
+    width: 20px;
+    height: 20px;
+    margin-inline-end: 8px;
+}
+
+
+.co-sliders {
+    position: relative;
+    height: fit-content;
+}
+
 
 @import "media";
 @import "rtl";

@@ -65,7 +65,7 @@
 
                     <ul class="d-flex social-media-links links-lg reset-list">
                         <li class="me-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a> </li>
-                        <li class="me-2"> <a href="#" class="link twitter"> <i class="fab  fa-twitter"></i> </a> </li>
+                        <li class="me-2"> <a href="#" class="link twitter"> <i class="fab  fa-x-twitter"></i> </a> </li>
                         <li class="me-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-whatsapp"></i> </a> </li>
                         <li class="me-2"> <a href="#" class="link telegram"> <i class="fa  fa-paper-plane"></i> </a> </li>
                     </ul>

@@ -30,11 +30,23 @@
                             <div class="col-sm-6">
                                 <div class="one-news-style-2 mb-2">
                                     <img src="assets/images/blog.jpg" class="img-fluid image">
-                                    <a href="#" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء </a>
+                                    <a href="blog-single.php?dir=rtl" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاءعبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء </a>
                                     <div class="d-flex">
-                                        <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                        <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                        <p class="mb-2 date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                        <p class="mb-2 views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
                                     </div>
+
+
+
+                                    <ul class="reset-list social-media-icons-colored icons-sm icons-start mb-4">
+                                        <li><a href="#" class="color-black facebook"> <i class="fab fa-facebook-f"></i> </a></li>
+                                        <li><a href="#" class="color-black twitter"> <i class="fab fa-x-twitter"></i> </a></li>
+                                        <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
+                                        <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
+                                        <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
+                                    </ul>
+
+
                                 </div>
                             </div>
                         <?php } ?>
@@ -48,7 +60,7 @@
 
                 </div> <!-- co-related-blogs -->
 
- 
+
 
             </div>
 
@@ -64,7 +76,7 @@
 
                         <ul class="reset-list social-media-icons-colored mb-4">
                             <li><a href="#" class="color-black facebook"> <i class="fab fa-facebook-f"></i> </a></li>
-                            <li><a href="#" class="color-black twitter"> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#" class="color-black twitter"> <i class="fab fa-x-twitter"></i> </a></li>
                             <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                             <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
                             <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>

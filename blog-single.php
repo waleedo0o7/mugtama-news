@@ -23,8 +23,12 @@
 
                 <div class="date-and-actions mb-4">
                     <div class="d-flex align-items-center">
+                        <a href="author-single.php?dir=rtl">
                         <img src="assets/images/author.jpg" class="img-fluid author-image me-2">
-                        <p class="mb-0 bold me-2"> إبراهيم الطرابلسي </p>
+                        </a>
+                        <p class="mb-0 bold me-2">
+                            <a href="author-single.php?dir=rtl">  إبراهيم الطرابلسي  </a>
+                        </p>
                         <div class="d-flex">
                             <p class="date small color-gray mb-0 me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                             <p class="views small color-gray m-0"> <i class="fa fa-eye"></i> 150 </p>
@@ -75,7 +79,7 @@
 
                     <ul class="d-flex social-media-links links-lg reset-list">
                         <li class="me-2"> <a href="#" class="link facebook"> <i class="fab  fa-facebook-f"></i> </a> </li>
-                        <li class="me-2"> <a href="#" class="link twitter"> <i class="fab  fa-twitter"></i> </a> </li>
+                        <li class="me-2"> <a href="#" class="link twitter"> <i class="fab  fa-x-twitter"></i> </a> </li>
                         <li class="me-2"> <a href="#" class="link whatsapp"> <i class="fab  fa-whatsapp"></i> </a> </li>
                         <li class="me-2"> <a href="#" class="link telegram"> <i class="fa  fa-paper-plane"></i> </a> </li>
                     </ul>
@@ -177,7 +181,7 @@
 
                         <ul class="reset-list social-media-icons-colored mb-4">
                             <li><a href="#" class="color-black facebook"> <i class="fab fa-facebook-f"></i> </a></li>
-                            <li><a href="#" class="color-black twitter"> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#" class="color-black twitter"> <i class="fab fa-x-twitter"></i> </a></li>
                             <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                             <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
                             <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>

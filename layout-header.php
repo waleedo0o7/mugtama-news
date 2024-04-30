@@ -1,4 +1,4 @@
-<html dir="<?php if (isset($_GET['dir']))   echo $_GET['dir']; ?>">
+<html dir="rtl">
 
 <head>
     <!-- Required meta tags -->
@@ -127,7 +127,7 @@
                             <a class="nav-link" href="blog-list.php?dir=rtl"> القضية الفلسطينية </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog-list.php?dir=rtl"> مرئيات </a>
+                            <a class="nav-link" href="video-media.php?dir=rtl"> مرئيات </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> استشارات </a>

@@ -6,8 +6,8 @@
         <div class="container">
             <div class="co-latest-news-and-visit-site row">
                 <div class="col-lg-9 co-latest-news-bar-slider mb-4 mb-lg-0">
-
                     <div id="latest-news-bar-slider" class="carousel slide latest-news-bar-slider" data-ride="carousel">
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="carousel-item-content">
@@ -49,8 +49,7 @@
                 </div><!-- co-latest-news-bar-slider -->
 
                 <div class="col-lg-3 co-visit-site">
-                    <a href="homepage.php">
-
+                    <a href="https://www.en.mugtama.com">
 
                         <picture class="banner">
                             <source media="(min-width: 992px)" srcset="assets/images/en.jpg">
@@ -68,7 +67,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 d-none d-lg-block">
+                <div class="col-lg-3 d-none d-lg-block col-authors">
                     <div class="co-authors mb-4 mb-md-0">
 
                         <div class="co-section-title mb-3">
@@ -157,7 +156,7 @@
 
                 </div><!-- col-lg-3 -->
 
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-news">
                     <div class="co-latest-news">
 
                         <div class="co-section-title mb-3">
@@ -196,20 +195,7 @@
 
                             </div><!-- one-latest-news -->
 
-                            <div class="one-latest-news one-news-style-3">
 
-                                <a href="#">
-                                    <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
-                                </a>
-
-                                <a href="#" class="category"> الأسلام والحياة </a>
-
-                                <div class="d-flex">
-                                    <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                    <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
-                                </div>
-
-                            </div><!-- one-latest-news -->
 
                         </div><!-- latest-news-list -->
 
@@ -223,11 +209,38 @@
 
     </section><!-- co-intro-section -->
 
+    <div class="container mb-5">
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="banner-wrapper">
+                    <a href="#">
+                        <img src="assets/images/banner-0001.png" class="img-fluid banner">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="banner-wrapper">
+                    <a href="#">
+                        <img src="assets/images/banner-0002.png" class="img-fluid banner">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="banner-wrapper">
+                    <a href="#">
+                        <img src="assets/images/banner-0003.png" class="img-fluid banner">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="co-media section-bg-dark py-5">
         <div class="container">
             <div class="co-section-title mb-5">
                 <p class="title"> ميديا المجتمع </p>
-                <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right ms-2"></i> </a>
+                <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
             <div class="row">
                 <div class="col-lg-6 mb-3">
@@ -310,6 +323,7 @@
 
                     <div class="co-section-title mb-5">
                         <p class="title"> الأكثر قراءة </p>
+                        <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
                     </div><!-- co-section-title -->
 
                     <div class="row">
@@ -338,11 +352,11 @@
 
                         <div class="card-content">
                             <div class="memories-news-list">
-                                <?php foreach (range(0, 4) as $i) { ?>
+                                <?php foreach (range(0, 3) as $i) { ?>
                                     <div class="one-news-style-4 p-2">
                                         <img src="assets/images/mostest.jpg" class="img-fluid image">
                                         <div class="details">
-                                            <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                            <a href="#" class="bold title mb-2"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                             <div class="d-flex">
                                                 <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                                 <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -371,7 +385,7 @@
 
             <div class="co-section-title mb-5">
                 <p class="title"> مُدونة المجتمع </p>
-                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right ms-2"></i> </a>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
 
@@ -419,6 +433,7 @@
 
             <div class="co-section-title mb-3">
                 <p class="title"> ملفات خاصة </p>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="co-default-slider">
@@ -455,18 +470,19 @@
 
             <div class="co-section-title mb-3">
                 <p class="title"> إصدارات </p>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="co-default-slider">
                 <div class="co-swiper-slider">
-                    <div class="swiper default-swiper">
+                    <div class="swiper default-four-swiper">
 
                         <div class="swiper-wrapper">
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-news-style-2">
                                         <img src="assets/images/editions.jpg" class="img-fluid image">
-                                        <p class="title bold mb-1"> 6 تحديات في مواجهة الهوية الدينية والقيمية للأسرة الكويتية </p>
+                                        <p class="title bold mb-1">   تحديات في مواجهة الهوية الدينية </p>
                                         <div class="d-flex">
                                             <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                             <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -495,11 +511,12 @@
 
             <div class="co-section-title mb-3">
                 <p class="title"> راوئع المقولات </p>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="co-default-slider">
                 <div class="co-swiper-slider">
-                    <div class="swiper default-swiper">
+                    <div class="swiper default-four-swiper">
 
                         <div class="swiper-wrapper">
                             <?php foreach (range(0, 5) as $i) { ?>
@@ -529,11 +546,12 @@
         </div> <!-- container -->
     </section><!-- co-editions -->
 
-    <div class="co-muslims section-bg-gray py-5">
+    <div class="co-muslims section-bg-gray py-5 mb-5">
         <div class="container">
 
             <div class="co-section-title mb-3">
                 <p class="title"> مسلمون حول العالم </p>
+                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="row">
@@ -599,13 +617,50 @@
         </div><!-- container -->
     </div><!-- co-muslims -->
 
+
+    <section class="co-caricature section-bg-dark-blue py-5">
+
+        <div class="container">
+
+            <div class="co-section-title mb-5">
+                <p class="title"> كاريكاتير المجتمع </p>
+                <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+            </div><!-- co-section-title -->
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-swiper">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(1, 4) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content one-news-style-2">
+                                        <img src="assets/images/caricature-<?php echo $i ?>.jpg" class="img-fluid image">
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+        </div> <!-- container -->
+    </section><!-- co-editions -->
+
     <section class="banner py-5">
         <div class="container">
             <a href="#"><img src="assets/images/banner-02.jpg" class="img-fluid border-radius-30"></a>
         </div>
     </section> <!-- banner -->
 
-    <div class="co-muslims pt-4 pb-4">
+    <div class="co-infographic pt-4 pb-4">
         <div class="container">
 
             <div class="co-section-title mb-3">
@@ -634,18 +689,17 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="co-follow-us">
+
                         <div class="text-center">
                             <h3 class=""> تابعنا </h3>
                             <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
                         </div>
 
-
                         <ul class="reset-list social-media-icons-colored mb-4">
                             <li><a href="#" class="color-black facebook"> <i class="fab fa-facebook-f"></i> </a></li>
-                            <li><a href="#" class="color-black twitter"> <i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#" class="color-black twitter"> <i class="fab fa-x-twitter"></i> </a></li>
                             <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                             <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
-                            <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
                         </ul>
 
                     </div><!-- co-follow-us -->
