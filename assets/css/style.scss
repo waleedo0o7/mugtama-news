@@ -19,10 +19,6 @@
 .co-primary-slider {
     .primary-swiper {
 
-        &.large {
-            height: 415px;
-        }
-
         .swiper-wrapper {
             position: relative;
             border-radius: 10px;
@@ -130,6 +126,14 @@
         }
     }
 
+    .co-default-slider .swiper-button-next,
+    .co-default-slider .swiper-button-prev {
+        border: 1px solid #ffffff;
+        &:after{
+            color : #FFF !important;
+        }
+    }
+
 }
 
 .co-latest-news-and-visit-site {
@@ -218,7 +222,7 @@
     align-items: center;
 }
 
-.date-and-actions {
+.user-data-and-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;

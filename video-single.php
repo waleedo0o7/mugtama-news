@@ -17,27 +17,33 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-lg-8">
 
                 <div class="co-video mb-4">
                     <iframe width="100%" height="460" src="https://www.youtube.com/embed/YdVyLAeS4NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div> <!-- co-video -->
 
-                <div class="title-and-views mb-2">
-                    <div class="d-block">
-                        <h1 class="title h4 mb-0"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </h1>
-                    </div>
-                    <div class="co-views-and-likes d-flex">
-                        <div class="co-likes me-2">
-                            <p class="bold m-0"> <span>580</span> إعجاب </p>
-                        </div>
-                        <div class="co-views">
-                            <p class="bold m-0"> <span>580</span> مشاهدة </p>
-                        </div>
-                    </div>
-                </div> <!-- title-and-views -->
 
-                <div class="date-and-actions mb-4">
+                <div class="row mb-2">
+                    <div class="col-lg-9">
+                        <div class="d-flex">
+                            <h1 class="title h4 mb-0"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="d-flex justify-content-lg-end">
+                            <div class="co-likes me-2">
+                                <p class="bold m-0"> <span>580</span> إعجاب </p>
+                            </div>
+                            <div class="co-views">
+                                <p class="bold m-0"> <span>580</span> مشاهدة </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
                     <p class="date small color-gray m-0 "> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                     <div class="actions">
                         <a href="#" class="btn btn-sm btn-outline-success me-1"> <i class="fa fa-thumbs-up like"></i> اعجبني </a>
@@ -73,7 +79,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="co-sidebar">
                     <div class="section-title mb-3">
                         <h2> فيديوهات ذات صلة </h2>
@@ -84,13 +90,13 @@
                         <div class="one-news-style-4 video mb-1">
                             <div class="co-image">
                                 <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
-                                <a href="#" class="overlay">
+                                <a href="video-single.php" class="overlay">
                                     <i class="fa fa-play"></i>
                                 </a> <!-- overlay -->
                             </div> <!-- co-image -->
 
                             <div class="details">
-                                <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                <a href="video-single.php" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                     <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>

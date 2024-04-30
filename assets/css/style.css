@@ -361,11 +361,6 @@ a:hover {
   color: #fff;
 }
 
-.co-infographic .image {
-  width: 404px;
-  height: 504px;
-}
-
 .one-news-style-2 .image {
   border-radius: 10px;
   margin-bottom: 5px;
@@ -672,9 +667,6 @@ footer .footer-widget .logo {
   color: #fff;
 }
 
-.co-primary-slider .primary-swiper.large {
-  height: 415px;
-}
 .co-primary-slider .primary-swiper .swiper-wrapper {
   position: relative;
   border-radius: 10px;
@@ -765,6 +757,14 @@ footer .footer-widget .logo {
 .section-bg-dark-blue .co-section-title:after {
   background-color: #fff;
 }
+.section-bg-dark-blue .co-default-slider .swiper-button-next,
+.section-bg-dark-blue .co-default-slider .swiper-button-prev {
+  border: 1px solid #ffffff;
+}
+.section-bg-dark-blue .co-default-slider .swiper-button-next:after,
+.section-bg-dark-blue .co-default-slider .swiper-button-prev:after {
+  color: #FFF !important;
+}
 
 .co-latest-news-and-visit-site .co-latest-news-bar-slider {
   display: flex;
@@ -838,24 +838,24 @@ footer .footer-widget .logo {
   align-items: center;
 }
 
-.date-and-actions {
+.user-data-and-actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.date-and-actions a.btn {
+.user-data-and-actions a.btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   min-width: 110px;
 }
-.date-and-actions a.btn i {
+.user-data-and-actions a.btn i {
   margin-inline-end: 5px;
 }
-.date-and-actions a.btn i.dislike {
+.user-data-and-actions a.btn i.dislike {
   height: 12px;
 }
-.date-and-actions a.btn i.like {
+.user-data-and-actions a.btn i.like {
   height: 16px;
 }
 
@@ -1215,6 +1215,13 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   .co-primary-slider .primary-swiper {
     height: 390px;
   }
+  .co-primary-slider .primary-swiper.large {
+    height: 415px;
+  }
+  .co-infographic .image {
+    width: 404px;
+    height: 500px;
+  }
 }
 @media all and (max-width: 992px) {
   .top-bar,
@@ -1248,6 +1255,9 @@ html[dir=rtl] .fa-chevron-right:before {
 html[dir=rtl] .latest-news-bar-slider .co-arrows {
   right: unset;
   left: -1px;
+}
+html[dir=rtl] .custom-select {
+  background-position: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,7 +16,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-lg-8">
 
 
                 <div class="co-related-blogs mb-5">
@@ -29,7 +29,7 @@
                         <?php foreach (range(0, 11) as $i) { ?>
                             <div class="col-sm-6">
                                 <div class="one-news-style-2 mb-2">
-                                    <img src="assets/images/blog.jpg" class="img-fluid image">
+                                    <a href="blog-single.php?dir=rtl"> <img src="assets/images/blog.jpg" class="img-fluid image"> </a>
                                     <a href="blog-single.php?dir=rtl" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاءعبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء </a>
                                     <div class="d-flex">
                                         <p class="mb-2 date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
@@ -64,7 +64,7 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="co-sidebar">
 
                     <div class="co-follow-us">
@@ -101,7 +101,7 @@
                             <div class="one-news-style-4 p-2">
                                 <img src="assets/images/mostest.jpg" class="img-fluid image">
                                 <div class="details">
-                                    <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                    <a href="blog-single.php" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -117,7 +117,7 @@
 
 
                     <div class="co-adv">
-                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 "> </a>
+                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
                     </div>
 
 

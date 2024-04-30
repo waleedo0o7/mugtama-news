@@ -53,7 +53,7 @@
                         <button class="btn btn-action button"> <i class="fa fa-search"></i></button>
                     </div><!-- form-group -->
 
-                    <a href="#" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-envelope me-1"></i> ارسل مقالا </a>
+                    <a href="auth-send-article.php" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-envelope me-1"></i> ارسل مقالا </a>
 
                     <ul class="reset-list social-media-icons d-flex">
                         <li><a href="#" class="color-black me-2"> <i class="fab fa-facebook-f"></i> </a></li>
@@ -174,7 +174,7 @@
         <div class="row m-0">
 
             <div class="col-4 d-inline-flex justify-content-center align-items-center">
-                <a href="#" class="btn btn-primary mx-2 py-2 border-radius-0"> ارسل مقالا </a>
+                <a href="auth-send-article.php" class="btn btn-primary mx-2 py-2 border-radius-0"> ارسل مقالا </a>
             </div>
 
             <div class="col-4 d-inline-flex justify-content-center align-items-center flex-column">

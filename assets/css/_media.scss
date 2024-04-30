@@ -49,6 +49,18 @@
     .co-primary-slider {
         .primary-swiper {
             height: 390px;
+
+            &.large {
+                height: 415px;
+            }
+    
+        }
+    }
+
+    .co-infographic {
+        .image {
+            width: 404px;
+            height: 500px;
         }
     }
 }

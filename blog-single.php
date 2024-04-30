@@ -21,22 +21,26 @@
                     <h1 class="title h2"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </h1>
                 </div>
 
-                <div class="date-and-actions mb-4">
-                    <div class="d-flex align-items-center">
-                        <a href="author-single.php?dir=rtl">
-                        <img src="assets/images/author.jpg" class="img-fluid author-image me-2">
-                        </a>
-                        <p class="mb-0 bold me-2">
-                            <a href="author-single.php?dir=rtl">  إبراهيم الطرابلسي  </a>
-                        </p>
-                        <div class="d-flex">
-                            <p class="date small color-gray mb-0 me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                            <p class="views small color-gray m-0"> <i class="fa fa-eye"></i> 150 </p>
+                <div class="row mb-2">
+                    <div class="col-lg-6 mb-2 mb-lg-0">
+                        <div class="d-flex align-items-center user-data">
+                            <a href="author-single.php?dir=rtl">
+                                <img src="assets/images/author.jpg" class="img-fluid author-image me-2">
+                            </a>
+                            <p class="mb-0 bold me-2">
+                                <a href="author-single.php?dir=rtl"> إبراهيم الطرابلسي </a>
+                            </p>
+                            <div class="d-flex">
+                                <p class="date small color-gray mb-0 me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                <p class="views small color-gray m-0"> <i class="fa fa-eye"></i> 150 </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="actions">
-                        <a href="#" class="btn btn-sm btn-outline-success me-1"> <i class="fa fa-thumbs-up like"></i> اعجبني </a>
-                        <a href="#" class="btn btn-sm btn-outline-danger"> <i class="fa fa-thumbs-down dislike"></i> لم يعجبني </a>
+                    <div class="col-lg-6">
+                        <div class="actions d-flex justify-content-lg-end">
+                            <a href="#" class="btn btn-sm btn-outline-success me-1"> <i class="fa fa-thumbs-up like"></i> اعجبني </a>
+                            <a href="#" class="btn btn-sm btn-outline-danger"> <i class="fa fa-thumbs-down dislike"></i> لم يعجبني </a>
+                        </div>
                     </div>
                 </div>
 
@@ -222,7 +226,7 @@
 
 
                     <div class="co-adv">
-                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 "> </a>
+                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
                     </div>
 
 

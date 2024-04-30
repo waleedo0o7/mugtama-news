@@ -597,7 +597,7 @@
                         </div><!-- card-header -->
 
                         <div class="card-content">
-                            <a href="#"><img src="assets/images/pdf-book.jpg" class="img-fluid image" alt=""></a>
+                            <a href="#"><img src="assets/images/pdf-book.jpg" class="img-fluid w-100 image" alt=""></a>
                         </div><!-- card-content -->
 
 
@@ -700,11 +700,12 @@
                             <li><a href="#" class="color-black twitter"> <i class="fab fa-x-twitter"></i> </a></li>
                             <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                             <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
+                            <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
                         </ul>
 
                     </div><!-- co-follow-us -->
                     <div class="co-adv">
-                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 "> </a>
+                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
                     </div>
                 </div>
             </div>

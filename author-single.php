@@ -25,9 +25,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
 
-
+            <div class="col-lg-8">
                 <div class="co-related-blogs mb-5">
 
 
@@ -38,8 +37,10 @@
                         <?php foreach (range(0, 11) as $i) { ?>
                             <div class="col-sm-6">
                                 <div class="one-news-style-2 mb-2">
-                                    <img src="assets/images/blog.jpg" class="img-fluid image">
-                                    <a href="#" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء </a>
+                                    <a href="blog-single.php">
+                                        <img src="assets/images/blog.jpg" class="img-fluid image">
+                                    </a>
+                                    <a href="blog-single.php" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -52,7 +53,7 @@
                                         <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
                                         <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
                                     </ul>
-                                    
+
                                 </div>
                             </div>
                         <?php } ?>
@@ -65,12 +66,9 @@
 
 
                 </div> <!-- co-related-blogs -->
-
-
-
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="co-sidebar">
 
                     <div class="co-follow-us">
@@ -123,7 +121,7 @@
 
 
                     <div class="co-adv">
-                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 "> </a>
+                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
                     </div>
 
 
