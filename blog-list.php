@@ -5,10 +5,10 @@
         <nav>
             <ol class="breadcrumb mb-0 px-0">
                 <li class="breadcrumb-item"><a href="#"> الرئيسية </a></li>
-                <li class="breadcrumb-item"><a href="#"> الكويت </a></li>
+                <li class="breadcrumb-item"><a href="#"> الأسرة </a></li>
             </ol>
         </nav>
-        <h1 class="h4 bold"> اخبار الكويت </h1>
+        <h1 class="h4 bold"> الأسرة </h1>
     </div>
 </div><!-- co-breadcrumb -->
 

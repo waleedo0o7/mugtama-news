@@ -15,7 +15,7 @@
 <main class="main pb-5">
 
 
-    <section class="mostest-views py-4">
+    <section class="py-4">
 
         <div class="container">
 
@@ -55,7 +55,7 @@
 
 
         </div> <!-- container -->
-    </section> <!-- mostest-views -->
+    </section> <!-- -->
 
 </main> <!-- main -->
 

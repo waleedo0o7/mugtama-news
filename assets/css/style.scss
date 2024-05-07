@@ -129,8 +129,9 @@
     .co-default-slider .swiper-button-next,
     .co-default-slider .swiper-button-prev {
         border: 1px solid #ffffff;
-        &:after{
-            color : #FFF !important;
+
+        &:after {
+            color: #FFF !important;
         }
     }
 
@@ -267,10 +268,8 @@
 
     .co-input-with-btn {
         input.form-control.search {
-            background: #efefef;
             padding: 3px 6px;
         }
-
         .button {
             width: 33px;
             height: 34px;
@@ -278,9 +277,6 @@
             background-color: transparent;
         }
     }
-
-
-
 
     .social-media-icons {
         a {
@@ -290,6 +286,23 @@
     }
 }
 
+.co-input-with-btn {
+    input.form-control.search {
+        background: #efefef; 
+    }
+
+}
+
+.categories-btns-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    flex-wrap: wrap;
+    .btn{
+        width: 19.2% !important;
+    }
+}
 
 nav.top-nav {
     background: var(--color-secondary);

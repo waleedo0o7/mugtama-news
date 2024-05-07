@@ -1,28 +1,21 @@
-// large screen +1200
+// +1200
 @media all and (min-width: 1200px) {}
 
-// large screen +1200
-@media all and (min-width: 767px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: 0;
-    }
-}
-
+// +992
 @media all and (min-width: 992px) {
     .mobile-menu {
         display: none;
     }
 
-    .co-intro-section { 
- 
+    .co-intro-section {
 
-        .col-authors{
+
+        .col-authors {
             flex: 0 0 21%;
             max-width: 21%;
         }
 
-        .col-news{
+        .col-news {
             flex: 0 0 22%;
             max-width: 22%;
         }
@@ -53,7 +46,7 @@
             &.large {
                 height: 415px;
             }
-    
+
         }
     }
 
@@ -65,10 +58,18 @@
     }
 }
 
-// from 1200 to 0
+// +767
+@media all and (min-width: 767px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+// -1200
 @media all and (max-width: 1200px) {}
 
-// from 992 to 0
+// -992
 @media all and (max-width: 992px) {
 
     .top-bar,
@@ -77,20 +78,52 @@
         display: none;
     }
 
-    .one-news-style-3 .image{
+    .one-news-style-3 .image {
         height: auto !important;
     }
 
-    .one-news-style-1 .image{
+    .one-news-style-1 .image {
         height: auto !important;
+    }
+
+    .categories-btns-wrapper {
+        gap: 2%;
+
+        .btn {
+            width: 49% !important;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
     }
 }
 
-// from 767 to 0
-@media all and (max-width: 767px) {}
+// -767
+@media all and (max-width: 767px) {
+    .media-items-row{
+        > div {
+           display: none;
+        }
+   
+        > div:nth-child(1) ,
+        > div:nth-child(2) {
+           display: flex;
+        }
+   }
+}
 
-// from 450 to 0
-@media all and (max-width: 450px) {}
+// -450
+@media all and (max-width: 450px) {
+    .categories-btns-wrapper {
+        gap: 0%;
 
-// from 320 to 0
+        .btn {
+            width: 100% !important;
+        }
+    }
+}
+
+// -320
 @media all and (max-width: 320px) {}

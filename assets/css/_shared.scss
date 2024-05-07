@@ -427,16 +427,19 @@ ul.latest-news-list {
 }
 
 .one-media {
+    width: 100%;
     .co-image {
         position: relative;
         border-radius: 10px;
         overflow: hidden;
         margin-bottom: 10px;
+        width: 100%;
 
         img {
             border-radius: 10px;
             overflow: hidden;
             aspect-ratio: 16/9;
+            width: 100%;
         }
 
         .overlay {

@@ -572,16 +572,21 @@ ul.latest-news-list {
   margin-bottom: 5px;
 }
 
+.one-media {
+  width: 100%;
+}
 .one-media .co-image {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 10px;
+  width: 100%;
 }
 .one-media .co-image img {
   border-radius: 10px;
   overflow: hidden;
   aspect-ratio: 16/9;
+  width: 100%;
 }
 .one-media .co-image .overlay {
   position: absolute;
@@ -876,7 +881,6 @@ footer .footer-widget .logo {
   color: #fff;
 }
 .top-bar .co-input-with-btn input.form-control.search {
-  background: #efefef;
   padding: 3px 6px;
 }
 .top-bar .co-input-with-btn .button {
@@ -888,6 +892,21 @@ footer .footer-widget .logo {
 .top-bar .social-media-icons a {
   color: #fff;
   font-size: 14px;
+}
+
+.co-input-with-btn input.form-control.search {
+  background: #efefef;
+}
+
+.categories-btns-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  flex-wrap: wrap;
+}
+.categories-btns-wrapper .btn {
+  width: 19.2% !important;
 }
 
 nav.top-nav {
@@ -1182,12 +1201,6 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   height: fit-content;
 }
 
-@media all and (min-width: 767px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
-  }
-}
 @media all and (min-width: 992px) {
   .mobile-menu {
     display: none;
@@ -1223,6 +1236,12 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
     height: 500px;
   }
 }
+@media all and (min-width: 767px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
 @media all and (max-width: 992px) {
   .top-bar,
   .logo-and-banner-wrapper,
@@ -1234,6 +1253,33 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   }
   .one-news-style-1 .image {
     height: auto !important;
+  }
+  .categories-btns-wrapper {
+    gap: 2%;
+  }
+  .categories-btns-wrapper .btn {
+    width: 49% !important;
+    margin-bottom: 20px;
+  }
+  .categories-btns-wrapper .btn:last-child {
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width: 767px) {
+  .media-items-row > div {
+    display: none;
+  }
+  .media-items-row > div:nth-child(1),
+  .media-items-row > div:nth-child(2) {
+    display: flex;
+  }
+}
+@media all and (max-width: 450px) {
+  .categories-btns-wrapper {
+    gap: 0%;
+  }
+  .categories-btns-wrapper .btn {
+    width: 100% !important;
   }
 }
 html[dir=rtl] body {

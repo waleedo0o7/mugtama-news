@@ -106,7 +106,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="blog-list.php?dir=rtl">الكويت</a>
+                            <a class="nav-link" href="blog-list-kwt.php?dir=rtl">الكويت</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl">الأسرة</a>

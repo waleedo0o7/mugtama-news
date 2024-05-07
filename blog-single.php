@@ -21,7 +21,7 @@
                     <h1 class="title h2"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </h1>
                 </div>
 
-                <div class="row mb-2">
+                <div class="row mb-3">
                     <div class="col-lg-6 mb-2 mb-lg-0">
                         <div class="d-flex align-items-center user-data">
                             <a href="author-single.php?dir=rtl">
@@ -36,17 +36,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="actions d-flex justify-content-lg-end">
-                            <a href="#" class="btn btn-sm btn-outline-success me-1"> <i class="fa fa-thumbs-up like"></i> اعجبني </a>
-                            <a href="#" class="btn btn-sm btn-outline-danger"> <i class="fa fa-thumbs-down dislike"></i> لم يعجبني </a>
-                        </div>
-                    </div>
                 </div>
 
 
                 <div class="co-image mb-4">
-                    <img src="assets/images/mostest.jpg" class="img-fluid image">
+                    <img src="assets/images/mostest.jpg" class="img-fluid image border-radius-20">
                 </div> <!-- co-video -->
 
 
@@ -62,6 +56,13 @@
                     <p style="text-align: justify;">وأشار إلى أن الفائز بالمركز الأول في المسابقة سيحصل على جائزة مالية قدرها 15 ألف دولار، أما الفائز بالمركز الثاني فسيحصل على 10 آلاف دولار، في حين تبلغ جائزة المركز الثالث 5 آلاف دولار.</p>
                     <p style="text-align: justify;">وعن شروط المسابقة، ذكر ناصر الحمد أنها تتضمن شروطًا عامة للمسابقة وأخرى خاصة في كتابة القصص من أهمها أن تعبر القصة عن موضوع المسابقة وأن تكون موجهة للأطفال من الفئة العمرية من سن الثامنة إلى سن 12 عاماً وأن تدور فكرتها الرئيسة حول أحد الموضوعات المعنية بالوقف أو التطوع أو العمل الخيري أو جميعها.</p>
                 </div>
+
+
+                <div class="my-4 d-flex justify-content-lg-start">
+                    <a href="#" class="btn btn-sm btn-outline-success me-1"> <i class="fa fa-thumbs-up like"></i> اعجبني </a>
+                </div>
+
+                <hr>
 
                 <div class="co-tags mb-3">
 
@@ -90,38 +91,9 @@
                 </div>
 
 
-                <div class="co-related-blogs mb-5">
 
 
-                    <div class="co-section-title mb-3">
-                        <p class="title"> أحدث المنشورات </p>
-                    </div>
-
-                    <div class="row">
-
-
-                        <?php foreach (range(0, 2) as $i) { ?>
-                            <div class="col-sm-4">
-                                <div class="one-news-style-2">
-                                    <img src="assets/images/blog.jpg" class="img-fluid image">
-                                    <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
-                                    <div class="d-flex">
-                                        <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                        <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php } ?>
-
-
-
-                    </div>
-
-
-
-
-                </div> <!-- co-related-blogs -->
-
+                
                 <div class="co-leave-comment">
 
                     <div class="co-section-title mb-3">
@@ -169,6 +141,40 @@
 
 
 
+                <div class="co-related-blogs mb-5">
+
+
+                    <div class="co-section-title mb-3">
+                        <p class="title"> موضوعات ذات صلة </p>
+                    </div>
+
+                    <div class="row">
+
+
+                        <?php foreach (range(0, 2) as $i) { ?>
+                            <div class="col-sm-4">
+                                <div class="one-news-style-2">
+                                    <img src="assets/images/blog.jpg" class="img-fluid image">
+                                    <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                    <div class="d-flex">
+                                        <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                        <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+
+
+
+                    </div>
+
+
+
+
+                </div> <!-- co-related-blogs -->
+
+
+
 
 
             </div>
@@ -203,7 +209,7 @@
                         <p class="title"> أحدث المنشورات </p>
                     </div><!-- co-section-title -->
 
-                    <div class="latest-news-list">
+                    <div class="latest-news-list mb-5">
 
 
                         <?php foreach (range(0, 4) as $i) { ?>
