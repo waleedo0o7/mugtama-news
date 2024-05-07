@@ -242,49 +242,11 @@
                 <p class="title"> ميديا المجتمع </p>
                 <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
-            <div class="row">
-                <div class="col-lg-6 mb-3">
-                    <div class="one-media">
-                        <div class="co-image">
-                            <a href="#">
-                                <img src="assets/images/media5.jpg" class="img-fluid image">
-                            </a>
-                            <a href="#" class="overlay">
-                                <i class="fa fa-play"></i>
-                            </a> <!-- overlay -->
-                        </div> <!-- co-image -->
-                        <div class="details">
-                            <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
-                            <div class="d-flex">
-                                <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
-                            </div>
-                        </div><!-- details -->
-                    </div> <!-- one-media -->
-                </div>
+            <div class="row media-items-row">
+ 
 
-                <div class="col-lg-6 mb-3">
-                    <div class="one-media">
-                        <div class="co-image">
-                            <a href="#">
-                                <img src="assets/images/media6.jpg" class="img-fluid image">
-                            </a>
-                            <a href="#" class="overlay">
-                                <i class="fa fa-play"></i>
-                            </a> <!-- overlay -->
-                        </div> <!-- co-image -->
-                        <div class="details">
-                            <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
-                            <div class="d-flex">
-                                <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
-                            </div>
-                        </div><!-- details -->
-                    </div> <!-- one-media -->
-                </div>
-
-                <?php foreach (range(0, 2) as $i) { ?>
-                    <div class="col-lg-4 mb-3">
+                <?php foreach (range(0, 3) as $i) { ?>
+                    <div class="col-lg-6 mb-3">
                         <div class="one-media">
                             <div class="co-image">
                                 <a href="#">
