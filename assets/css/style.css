@@ -1043,6 +1043,10 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   content: none;
 }
 
+.breadcrumb-image-kwt {
+  height: 80px;
+}
+
 .co-mobile-menu {
   display: none;
 }

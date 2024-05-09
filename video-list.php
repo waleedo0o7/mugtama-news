@@ -1,6 +1,6 @@
 <?php include 'layout-header.php'; ?>
 
-<div class="co-breadcrumb py-2 mb-5">
+<div class="co-breadcrumb py-2">
     <div class="container">
         <nav>
             <ol class="breadcrumb mb-0 px-0">
@@ -8,11 +8,55 @@
                 <li class="breadcrumb-item active"> مرئيات </li>
             </ol>
         </nav>
-        <h1 class="h4 bold"> فيديوهات مترجمة </h1>
+        <h1 class="h4 bold"> ترجمات المجتمع </h1>
     </div>
 </div><!-- co-breadcrumb -->
 
 <main class="main pb-5">
+
+    <section class="categories bg-primary py-4  mb-5">
+        <div class="container">
+            <div class="section-title mb-4">
+                <h2 class="color-white text-center"> الأقسام </h2>
+            </div> <!-- section-title -->
+
+            <div class="row mb-3">
+
+                <div class="col-lg-10 m-auto">
+                    <div class="categories-btns-wrapper">
+                        <a href="video-list.php" class="btn btn-light w-100 bold">
+                            <img src="assets/images/cat-icon-1.png" class=" img-fluid category-icon">
+                            وثائقي
+                        </a>
+
+                        <a href="video-list.php" class="btn btn-light w-100 bold">
+                            <img src="assets/images/cat-icon-1.png" class=" img-fluid category-icon">
+                            برامج إعلامية
+                        </a>
+
+                        <a href="video-list.php" class="btn btn-light w-100 bold">
+                            <img src="assets/images/cat-icon-1.png" class=" img-fluid category-icon">
+                            ترجمات المجتمع
+                        </a>
+
+                        <a href="video-list.php" class="btn btn-light w-100 bold">
+                            <img src="assets/images/cat-icon-1.png" class=" img-fluid category-icon">
+                            أعلام
+                        </a>
+
+
+                        <a href="video-list.php" class="btn btn-light w-100 bold">
+                            <img src="assets/images/cat-icon-1.png" class=" img-fluid category-icon">
+                            قصة خبرية
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- categories -->
 
 
     <section class="py-4">

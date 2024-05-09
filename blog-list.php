@@ -44,6 +44,7 @@
                                         <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                                         <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
                                         <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
+                                        <li><a href="#" class="color-black whatsapp"> <i class="fab fa-whatsapp"></i> </a></li>
                                     </ul>
 
 

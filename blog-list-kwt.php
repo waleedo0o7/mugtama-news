@@ -2,13 +2,20 @@
 
 <div class="co-breadcrumb py-2 mb-5">
     <div class="container">
-        <nav>
-            <ol class="breadcrumb mb-0 px-0">
-                <li class="breadcrumb-item"><a href="#"> الرئيسية </a></li>
-                <li class="breadcrumb-item"><a href="#"> اخبار الكويت </a></li>
-            </ol>
-        </nav>
-        <h1 class="h4 bold"> اخبار الكويت </h1>
+
+        <div class="d-flex">
+            <div class="d-block me-3">
+                <nav>
+                    <ol class="breadcrumb mb-0 px-0">
+                        <li class="breadcrumb-item"><a href="#"> الرئيسية </a></li>
+                        <li class="breadcrumb-item"><a href="#"> اخبار الكويت </a></li>
+                    </ol>
+                </nav>
+                <h1 class="h4 bold"> اخبار الكويت </h1>
+            </div>
+            <img src="assets/images/kwt-top.png" class="img-fluid breadcrumb-image-kwt">
+        </div>
+
     </div>
 </div><!-- co-breadcrumb -->
 
@@ -40,6 +47,7 @@
                                         <li><a href="#" class="color-black youtube"> <i class="fab fa-youtube"></i> </a></li>
                                         <li><a href="#" class="color-black instagram"> <i class="fab fa-instagram"></i> </a></li>
                                         <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
+                                        <li><a href="#" class="color-black whatsapp"> <i class="fab fa-whatsapp"></i> </a></li>
                                     </ul>
 
 
@@ -58,7 +66,7 @@
             <div class="col-lg-4">
 
                 <div class="category-banner-wrapper mb-4">
-                    <img src="assets/images/banner-kwt.jpg" class="img-fluid border-radius-10">
+                    <img src="assets/images/banner-kwt-2.jpg" class="img-fluid border-radius-10">
                 </div>
 
                 <div class="co-sidebar">
