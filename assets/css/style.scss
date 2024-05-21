@@ -17,6 +17,7 @@
 }
 
 .co-primary-slider {
+
     .primary-swiper {
 
         .swiper-wrapper {
@@ -41,6 +42,14 @@
         left: 0 !important;
         height: 100% !important;
 
+        &.pagination-bottom {
+            width: 100% !important;
+            flex-direction: row !important;
+            height: 30px !important;
+            top: unset !important;
+            bottom: 0 !important;
+        }
+
         .swiper-pagination-bullet {
             margin-bottom: 5px !important;
             border: 2px solid #fff;
@@ -48,6 +57,7 @@
             height: 13px;
         }
     }
+
 }
 
 .co-default-slider {
@@ -95,7 +105,6 @@
         border-color: #fff;
     }
 }
-
 
 .section-bg-dark {
     background-color: #141414;
@@ -210,8 +219,6 @@
     }
 }
 
-
-
 .co-video {
     border-radius: 15px;
     overflow: hidden;
@@ -270,6 +277,7 @@
         input.form-control.search {
             padding: 3px 6px;
         }
+
         .button {
             width: 33px;
             height: 34px;
@@ -288,18 +296,19 @@
 
 .co-input-with-btn {
     input.form-control.search {
-        background: #efefef; 
+        background: #efefef;
     }
 
 }
 
-.categories-btns-wrapper{
+.categories-btns-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1%;
     flex-wrap: wrap;
-    .btn{
+
+    .btn {
         width: 19.2% !important;
     }
 }

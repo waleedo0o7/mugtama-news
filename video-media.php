@@ -63,7 +63,7 @@
             <h4 class="text-center mb-3"> ابحث في مرئيات </h4>
             <div class="form-group co-input-with-btn mb-0">
                 <input type="text" class="form-control search" placeholder="بحث">
-                <button class="btn btn-primary action-btn button"> بحث </button>
+                <a href="video-list.php" class="btn btn-primary action-btn button"> بحث </a>
             </div>
         </div>
     </section>
@@ -83,7 +83,7 @@
                         <div class="one-media">
                             <div class="co-image">
                                 <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
-                                <a href="#" class="overlay">
+                                <a href="video-single.php" class="overlay">
                                     <i class="fa fa-play"></i>
                                 </a> <!-- overlay -->
                             </div> <!-- co-image -->

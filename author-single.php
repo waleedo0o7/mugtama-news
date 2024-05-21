@@ -75,7 +75,7 @@
                     <div class="co-follow-us">
                         <div class="text-center">
                             <h3 class=""> تابعنا </h3>
-                            <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
+                            <p class="follow-us-text"> اعثر علينا على الوسائط الاجتماعية </p>
                         </div>
 
 
@@ -99,14 +99,16 @@
                         <p class="title"> أحدث المنشورات </p>
                     </div><!-- co-section-title -->
 
-                    <div class="latest-news-list">
+                    <div class="latest-news-list mb-3">
 
 
                         <?php foreach (range(0, 4) as $i) { ?>
                             <div class="one-news-style-4 p-2">
-                                <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                <a href="blog-single.php" class="me-3">
+                                    <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                </a>
                                 <div class="details">
-                                    <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                    <a href="blog-single.php" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>

@@ -111,15 +111,17 @@
 
                                         <?php foreach (range(0, 3) as $i) { ?>
                                             <div class="swiper-slide">
-                                                <div class="slide-content one-news-style-1">
-                                                    <img src="assets/images/slider-01.jpg" class="img-fluid image">
-                                                </div>
+                                                <a href="blog-single.php">
+                                                    <div class="slide-content one-news-style-1">
+                                                        <img src="assets/images/slider-01.jpg" class="img-fluid image">
+                                                    </div>
+                                                </a>
                                             </div>
                                         <?php } ?>
 
                                     </div> <!-- swiper-wrapper -->
 
-                                    <div class="swiper-pagination primary-swiper-pagination"></div>
+                                    <div class="swiper-pagination primary-swiper-pagination pagination-bottom"></div>
                                 </div> <!-- swiper primary-swiper -->
 
 
@@ -132,11 +134,17 @@
                                     <div class="swiper-wrapper">
                                         <?php foreach (range(0, 5) as $i) { ?>
                                             <div class="swiper-slide">
+
                                                 <div class="slide-content one-news-style-2">
-                                                    <img src="assets/images/secondary-slider.jpg" class="img-fluid image">
-                                                    <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                                    <a href="blog-single.php">
+                                                        <img src="assets/images/secondary-slider.jpg" class="img-fluid image">
+                                                    </a>
+                                                    <a href="blog-single.php">
+                                                        <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                                    </a>
                                                     <p class="date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                                 </div>
+
                                             </div>
                                         <?php } ?>
                                     </div> <!-- swiper-wrapper -->
@@ -167,11 +175,11 @@
 
                             <div class="one-latest-news one-news-style-3">
 
-                                <a href="#">
+                                <a href="blog-single.php">
                                     <img src="assets/images/primary-slider.jpg" class="img-fluid image mb-2">
                                 </a>
 
-                                <a href="#" class="category"> الأسلام والحياة </a>
+                                <a href="blog-list.php" class="category"> الأسلام والحياة </a>
 
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
@@ -238,21 +246,22 @@
 
     <section class="co-media section-bg-dark py-5">
         <div class="container">
+
             <div class="co-section-title mb-5">
                 <p class="title"> ميديا المجتمع </p>
                 <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
+
             <div class="row media-items-row">
- 
 
                 <?php foreach (range(0, 3) as $i) { ?>
                     <div class="col-lg-6 mb-3">
                         <div class="one-media">
                             <div class="co-image">
-                                <a href="#">
+                                <a href="video-single.php">
                                     <img src="assets/images/media<?php echo $i ?>.jpg" class="img-fluid image">
                                 </a>
-                                <a href="#" class="overlay">
+                                <a href="video-single.php" class="overlay">
                                     <i class="fa fa-play"></i>
                                 </a> <!-- overlay -->
                             </div> <!-- co-image -->
@@ -274,7 +283,7 @@
 
     <section class="banner py-5">
         <div class="container">
-            <a href="#"><img src="assets/images/banner-01.jpg" class="img-fluid border-radius-30"></a>
+            <a href="blog-single.php"><img src="assets/images/banner-01.jpg" class="img-fluid border-radius-30"></a>
         </div>
     </section> <!-- banner -->
 
@@ -285,7 +294,7 @@
 
                     <div class="co-section-title mb-5">
                         <p class="title"> الأكثر قراءة </p>
-                        <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+                        <a href="blog-list.php"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
                     </div><!-- co-section-title -->
 
                     <div class="row">
@@ -330,7 +339,7 @@
                         </div><!-- card-content -->
 
                         <div class="card-footer">
-                            <a href="#" class="m-0"> مشاهدة المزيد </a>
+                            <a href="blog-list.php" class="m-0"> مشاهدة المزيد </a>
                         </div><!-- card-footer -->
 
                     </div>
@@ -347,7 +356,7 @@
 
             <div class="co-section-title mb-5">
                 <p class="title"> مُدونة المجتمع </p>
-                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+                <a href="blog-list.php"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
 
@@ -359,10 +368,12 @@
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-news-style-2">
-                                        <a href="blog-single">
+                                        <a href="blog-single.php">
                                             <img src="assets/images/blog.jpg" class="img-fluid image">
                                         </a>
-                                        <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                        <a href="blog-single.php">
+                                            <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                        </a>
                                         <div class="d-flex">
                                             <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                             <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -406,7 +417,9 @@
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-image-card">
-                                        <a href="#"><img src="assets/images/file.jpg" class="img-fluid image border-radius-10"></a>
+                                        <a href="blog-single.php">
+                                            <img src="assets/images/file.jpg" class="img-fluid image border-radius-10">
+                                        </a>
                                     </div>
                                 </div>
                             <?php } ?>
@@ -432,7 +445,7 @@
 
             <div class="co-section-title mb-3">
                 <p class="title"> إصدارات </p>
-                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+                <a href="blog-list.php"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="co-default-slider">
@@ -443,8 +456,12 @@
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-news-style-2">
-                                        <img src="assets/images/editions.jpg" class="img-fluid image">
-                                        <p class="title bold mb-1">   تحديات في مواجهة الهوية الدينية </p>
+                                        <a href="blog-single.php">
+                                            <img src="assets/images/editions.jpg" class="img-fluid image">
+                                        </a>
+                                        <a href="blog-single.php">
+                                            <p class="color-black title bold mb-1"> تحديات في مواجهة الهوية الدينية </p>
+                                        </a>
                                         <div class="d-flex">
                                             <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                             <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -484,8 +501,10 @@
                             <?php foreach (range(0, 5) as $i) { ?>
                                 <div class="swiper-slide">
                                     <div class="slide-content one-news-style-2">
-                                        <img src="assets/images/quotes.jpg" class="img-fluid image">
-                                        <p class="title bold mb-1"> إنكم تُناوئون أمة قد ضربها الله بالذل والصغار </p>
+                                        <a href="blog-single.php"><img src="assets/images/quotes.jpg" class="img-fluid image"></a>
+                                        <a href="#">
+                                            <p class="color-black title bold mb-1"> إنكم تُناوئون أمة قد ضربها الله بالذل والصغار </p>
+                                        </a>
                                         <div class="d-flex">
                                             <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                             <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -513,10 +532,11 @@
 
             <div class="co-section-title mb-3">
                 <p class="title"> مسلمون حول العالم </p>
-                <a href="#"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+                <a href="blog-list.php"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="row">
+
                 <div class="col-lg-8">
 
                     <div class="co-primary-slider mb-3">
@@ -528,15 +548,17 @@
 
                                     <?php foreach (range(0, 3) as $i) { ?>
                                         <div class="swiper-slide">
-                                            <div class="slide-content one-news-style-1">
-                                                <img src="assets/images/muslims.jpg" class="img-fluid image">
-                                            </div>
+                                            <a href="blog-single.php">
+                                                <div class="slide-content one-news-style-1">
+                                                    <img src="assets/images/muslims.jpg" class="img-fluid image">
+                                                </div>
+                                            </a>
                                         </div>
                                     <?php } ?>
 
                                 </div> <!-- swiper-wrapper -->
 
-                                <div class="swiper-pagination primary-swiper-pagination"></div>
+                                <div class="swiper-pagination primary-swiper-pagination pagination-bottom"></div>
                             </div> <!-- swiper primary-swiper -->
 
 
@@ -586,7 +608,7 @@
 
             <div class="co-section-title mb-5">
                 <p class="title"> كاريكاتير المجتمع </p>
-                <a href="#" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+                <a href="blog-list.php" class="color-white"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
             <div class="co-default-slider">
@@ -596,9 +618,11 @@
                         <div class="swiper-wrapper">
                             <?php foreach (range(1, 4) as $i) { ?>
                                 <div class="swiper-slide">
-                                    <div class="slide-content one-news-style-2">
-                                        <img src="assets/images/caricature-<?php echo $i ?>.jpg" class="img-fluid image">
-                                    </div>
+                                    <a href="blog-single.php">
+                                        <div class="slide-content one-news-style-2">
+                                            <img src="assets/images/caricature-<?php echo $i ?>.jpg" class="img-fluid image">
+                                        </div>
+                                    </a>
                                 </div>
                             <?php } ?>
                         </div> <!-- swiper-wrapper -->
@@ -618,43 +642,45 @@
 
     <section class="banner py-5">
         <div class="container">
-            <a href="#"><img src="assets/images/banner-02.jpg" class="img-fluid border-radius-30"></a>
+            <a href="blog-single.php"><img src="assets/images/banner-02.jpg" class="img-fluid border-radius-30"></a>
         </div>
     </section> <!-- banner -->
 
     <div class="co-infographic pt-4 pb-4">
         <div class="container">
 
-            <div class="co-section-title mb-3">
+            <div class="co-section-title mb-5">
                 <p class="title"> إنفوجراف </p>
+                <a href="blog-list.php" class="color-black"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
             </div><!-- co-section-title -->
 
-
-
-
             <div class="row">
+
                 <div class="col-lg-8">
 
                     <div class="row">
                         <?php foreach (range(0, 3) as $i) { ?>
                             <div class="col-lg-6 mb-4">
-                                <div class="one-news-style-1 x-large-image">
-                                    <img src="assets/images/infograph<?php echo $i ?>.jpg" class="img-fluid image ">
-                                    <div class="details">
-                                        <p class="date small mb-0"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                    </div><!-- details -->
-                                </div>
+                                <a href="blog-single.php">
+                                    <div class="one-news-style-1 x-large-image">
+                                        <img src="assets/images/infograph<?php echo $i ?>.jpg" class="img-fluid image ">
+                                        <div class="details">
+                                            <p class="date small mb-0"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                        </div><!-- details -->
+                                    </div>
+                                </a>
                             </div>
                         <?php } ?>
                     </div>
 
                 </div>
+
                 <div class="col-lg-4">
                     <div class="co-follow-us">
 
                         <div class="text-center">
-                            <h3 class=""> تابعنا </h3>
-                            <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
+                            <h3> تابعنا </h3>
+                            <p class="follow-us-text"> اعثر علينا على الوسائط الاجتماعية </p>
                         </div>
 
                         <ul class="reset-list social-media-icons-colored mb-4">
@@ -667,13 +693,10 @@
 
                     </div><!-- co-follow-us -->
                     <div class="co-adv">
-                        <a href="#" class=""> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
+                        <a href="blog-list.php"> <img src="assets/images/adv-01.jpg" class="img-fluid border-radius-10 w-100"> </a>
                     </div>
                 </div>
             </div>
-
-
-
 
         </div><!-- container -->
     </div><!-- co-muslims -->

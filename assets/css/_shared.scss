@@ -265,6 +265,14 @@
     }
 }
 
+.co-sidebar {
+
+    .one-news-style-4 .image {
+        width: 164px;
+        height: auto;
+    }
+}
+
 .co-input-with-btn {
     position: relative;
 
@@ -304,6 +312,7 @@
             margin: 0 10px;
             background: #5a8966 !important;
             color: #FFF !important;
+
             &:first-child {
 
                 margin-inline-start: 0;
@@ -428,6 +437,7 @@ ul.latest-news-list {
 
 .one-media {
     width: 100%;
+
     .co-image {
         position: relative;
         border-radius: 10px;

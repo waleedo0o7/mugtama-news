@@ -57,6 +57,7 @@ body {
 a.color-black {
     &:hover {
         color: var(--color-primary);
+        text-decoration: none !important;
     }
 }
 

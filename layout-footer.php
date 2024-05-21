@@ -6,11 +6,11 @@
                     <img src="assets/images/logo-sm--light.png" class="img-fluid logo mb-4">
 
                     <ul class="reset-list social-media-icons d-flex">
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-facebook-f"></i> </a></li>
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-x-twitter"></i> </a></li>
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-youtube"></i> </a></li>
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-instagram"></i> </a></li>
-                        <li><a href="#" class="color-white me-3"> <i class="fab fa-telegram"></i> </a></li>
+                        <li><a href="blog-list.php" class="color-white me-3"> <i class="fab fa-facebook-f"></i> </a></li>
+                        <li><a href="blog-list.php" class="color-white me-3"> <i class="fab fa-x-twitter"></i> </a></li>
+                        <li><a href="blog-list.php" class="color-white me-3"> <i class="fab fa-youtube"></i> </a></li>
+                        <li><a href="blog-list.php" class="color-white me-3"> <i class="fab fa-instagram"></i> </a></li>
+                        <li><a href="blog-list.php" class="color-white me-3"> <i class="fab fa-telegram"></i> </a></li>
                     </ul>
                 </div>
             </div>
@@ -22,13 +22,13 @@
 
                     <ul class="reset-list links">
 
-                        <li><a href="#"> الرئيسية </a></li>
-                        <li><a href="#"> الكويت </a></li>
-                        <li><a href="#"> الأسرة </a></li>
-                        <li><a href="#"> قضايا المجتمع </a></li>
-                        <li><a href="#"> الإسلام والحياة </a></li>
-                        <li><a href="#"> مسلمون حول العالم </a></li>
-                        <li><a href="#"> تقارير وحوارات </a></li>
+                        <li><a href="blog-list.php"> الرئيسية </a></li>
+                        <li><a href="blog-list.php"> الكويت </a></li>
+                        <li><a href="blog-list.php"> الأسرة </a></li>
+                        <li><a href="blog-list.php"> قضايا المجتمع </a></li>
+                        <li><a href="blog-list.php"> الإسلام والحياة </a></li>
+                        <li><a href="blog-list.php"> مسلمون حول العالم </a></li>
+                        <li><a href="blog-list.php"> تقارير وحوارات </a></li>
 
                     </ul>
 

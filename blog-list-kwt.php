@@ -76,7 +76,7 @@
                         <div class="text-center">
 
                             <h3 class=""> تابعنا </h3>
-                            <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
+                            <p class="follow-us-text"> اعثر علينا على الوسائط الاجتماعية </p>
 
                         </div>
 
@@ -99,7 +99,9 @@
 
                         <?php foreach (range(0, 4) as $i) { ?>
                             <div class="one-news-style-4 p-2">
-                                <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                <a href="blog-single.php" class="me-3">
+                                    <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                </a>
                                 <div class="details">
                                     <a href="blog-single.php" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                     <div class="d-flex">

@@ -69,11 +69,11 @@
                     <h5 class="mb-2"> هشتاجات </h5>
 
                     <ul class="tags-list reset-list">
-                        <li> <a href="#" class="tag"> الأمانة العامة للأوقاف </a></li>
-                        <li> <a href="#" class="tag"> العامة </a></li>
-                        <li> <a href="#" class="tag"> للأوقاف </a></li>
-                        <li> <a href="#" class="tag"> الوقف </a></li>
-                        <li> <a href="#" class="tag"> الأمانة العامة للأوقاف </a></li>
+                        <li> <a href="blog-list.php" class="tag"> الأمانة العامة للأوقاف </a></li>
+                        <li> <a href="blog-list.php" class="tag"> العامة </a></li>
+                        <li> <a href="blog-list.php" class="tag"> للأوقاف </a></li>
+                        <li> <a href="blog-list.php" class="tag"> الوقف </a></li>
+                        <li> <a href="blog-list.php" class="tag"> الأمانة العامة للأوقاف </a></li>
                     </ul>
                 </div>
 
@@ -150,12 +150,11 @@
 
                     <div class="row">
 
-
                         <?php foreach (range(0, 2) as $i) { ?>
                             <div class="col-sm-4">
                                 <div class="one-news-style-2">
-                                    <img src="assets/images/blog.jpg" class="img-fluid image">
-                                    <p class="title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                    <a href="blog-single.php"> <img src="assets/images/blog.jpg" class="img-fluid image"> </a>
+                                    <a href="blog-single.php"> <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p> </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -167,9 +166,6 @@
 
 
                     </div>
-
-
-
 
                 </div> <!-- co-related-blogs -->
 
@@ -185,7 +181,7 @@
                     <div class="co-follow-us">
                         <div class="text-center">
                             <h3 class=""> تابعنا </h3>
-                            <p class="small"> اعثر علينا على الوسائط الاجتماعية </p>
+                            <p class="follow-us-text"> اعثر علينا على الوسائط الاجتماعية </p>
                         </div>
 
 
@@ -209,14 +205,16 @@
                         <p class="title"> أحدث المنشورات </p>
                     </div><!-- co-section-title -->
 
-                    <div class="latest-news-list mb-5">
+                    <div class="latest-news-list mb-3">
 
 
-                        <?php foreach (range(0, 4) as $i) { ?>
+                    <?php foreach (range(0, 4) as $i) { ?>
                             <div class="one-news-style-4 p-2">
-                                <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                <a href="blog-single.php" class="me-3">
+                                    <img src="assets/images/mostest.jpg" class="img-fluid image">
+                                </a>
                                 <div class="details">
-                                    <a href="#" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
+                                    <a href="blog-single.php" class="bold title"> حقائق في وثائق.. واقعة بين الأميري وعبدالناصر </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
