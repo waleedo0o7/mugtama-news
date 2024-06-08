@@ -110,12 +110,28 @@
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list-kwt.php?dir=rtl">الكويت</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link" href="blog-list.php?dir=rtl">الأسرة</a>
+                            
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                            </div>
+                        </li> 
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="blog-list.php?dir=rtl">قضايا المجتمع </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog-list.php?dir=rtl"> قضايا المجتمع </a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> الإسلام والحياة </a>
                         </li>
