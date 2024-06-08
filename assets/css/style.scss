@@ -393,6 +393,8 @@ nav.top-nav {
     }
 }
 
+ 
+
 .dropdown {
     .dropdown-menu {
         background: var(--color-secondary);
@@ -400,6 +402,10 @@ nav.top-nav {
 
         .dropdown-item {
             color: #FFF;
+            a{
+                color: #FFF;
+
+            }
         }
 
     }

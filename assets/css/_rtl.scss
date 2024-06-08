@@ -2,9 +2,11 @@ html[dir="rtl"] {
     body {
         text-align: right;
     }
+
     .dropdown-item {
         text-align: right;
     }
+
     .co-input-with-btn .button {
         right: unset;
         left: 0;
@@ -26,4 +28,19 @@ html[dir="rtl"] {
     .custom-select {
         background-position: 10px;
     }
+
+
+    // +767
+    @media all and (min-width: 767px) {
+
+        .dropdown>.dropdown-menu {
+            right: 0;
+        }
+
+        .dropdown-submenu ul.dropdown-menu {
+            right: 100%;
+        }
+
+    }
+
 }

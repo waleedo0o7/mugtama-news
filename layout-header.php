@@ -97,8 +97,12 @@
 
     <div class="top-nav-wrapper mb-3">
         <div class="container">
+
+
+
             <nav class="top-nav navbar navbar-expand-lg p-0">
                 <div class="navbar-collapse">
+
                     <ul class="navbar-nav p-0">
 
                         <li class="home-item">
@@ -110,31 +114,45 @@
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list-kwt.php?dir=rtl">الكويت</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="blog-list.php?dir=rtl">الأسرة</a>
-                            
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                            </div>
-                        </li> 
-
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="blog-list.php?dir=rtl">قضايا المجتمع </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                            </div>
+                            <a href="#" id="menu" data-toggle="dropdown" class="nav-link"> لينك اساسي </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item dropdown-submenu">
+                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu-1</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-1</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-2</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-item dropdown-submenu">
+                                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu-2</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-1 ddd </a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-2 sss </a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a href="#">Item-3 aaa </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> الإسلام والحياة </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> مسلمون حول العالم </a>
                         </li>
@@ -269,3 +287,67 @@
         </div>
 
     </div> <!-- co-mobile-search-wrapper -->
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Brand</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar1">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle" data-display="static">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item dropdown-submenu">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu-1</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="#">Item-1</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Item-2</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Item-3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-item dropdown-submenu">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle">Submenu-2</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item">
+                                    <a href="#">Item-1 ddd </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Item-2 sss </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Item-3 aaa </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
