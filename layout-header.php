@@ -53,6 +53,8 @@
                         <button class="btn btn-action button"> <i class="fa fa-search"></i></button>
                     </div><!-- form-group -->
 
+                    <a href="auth-login.php" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-lock me-1"></i> تسجيل دخول </a>
+
                     <a href="auth-send-article.php" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-envelope me-1"></i> ارسل مقالا </a>
 
                     <ul class="reset-list social-media-icons d-flex">
