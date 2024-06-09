@@ -201,25 +201,20 @@
                             </ul>
                         </li>
 
+                        <!--
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="blog-list.php?dir=rtl" role="button" data-toggle="dropdown">
+                                    المزيد
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
+                                </div>
+                            </li>
+                        -->
 
-
-
-
-
-
-
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link" href="blog-list.php?dir=rtl" role="button" data-toggle="dropdown">
-                                المزيد
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                            </div>
-                        </li> -->
                     </ul> <!-- navbar-nav -->
                 </div>
             </nav>
