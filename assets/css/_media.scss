@@ -62,7 +62,7 @@
 @media all and (min-width: 767px) {
 
 
-    .dropdown > .dropdown-menu {
+    .dropdown>.dropdown-menu {
         left: 0;
     }
 
@@ -89,6 +89,40 @@
         display: block;
         margin-top: 0;
     }
+
+
+    .dropdown-menu {
+        .dropdown-item {
+            padding: 0px;
+
+            .link {
+                width: 100%;
+                display: block;
+                padding: 5px 10px;
+
+                &.dropdown-toggle-arrow::after {
+                    content: "\f053";
+                    -moz-osx-font-smoothing: grayscale;
+                    -webkit-font-smoothing: antialiased;
+                    display: var(--fa-display, inline-block);
+                    font-style: normal;
+                    font-variant: normal;
+                    line-height: 1;
+                    text-rendering: auto;
+                    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+                    font-weight: var(--fa-style, 900);
+                    color: #fff;
+                    font-size: 12px;
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                }
+            }
+        }
+    }
+
+
+
 
 }
 
