@@ -116,8 +116,38 @@
                             <a class="nav-link" href="blog-list-kwt.php?dir=rtl">الكويت</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog-list.php?dir=rtl">الأسرة</a>
+                        <li class="nav-item dropdown">
+
+                            <a href="#" id="menu" class="nav-link"> الأسرة </a>
+
+                            <ul class="dropdown-menu">
+
+                                <li class="dropdown-item dropdown-submenu">
+
+                                    <a href="#" class="link dropdown-toggle-arrow">Submenu-1</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">
+                                            <a class="link" href="#">Item-1</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="link" href="#">Item-2</a>
+                                        </li>
+                                        <li class="dropdown-item">
+                                            <a class="link" href="#">Item-3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-item">
+                                    <a class="link" href="#">Submenu-2</a>
+                                </li>
+
+                                <li class="dropdown-item">
+                                    <a class="link" href="#">Submenu-3</a>
+                                </li>
+
+                            </ul>
                         </li>
 
                         <li class="nav-item">
@@ -180,20 +210,7 @@
 
                             </ul>
                         </li>
-
-                        <!--
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="blog-list.php?dir=rtl" role="button">
-                                    المزيد
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                    <a class="dropdown-item" href="blog-list.php?dir=rtl"> رابط </a>
-                                </div>
-                            </li>
-                        -->
+ 
 
                     </ul> <!-- navbar-nav -->
                 </div>
