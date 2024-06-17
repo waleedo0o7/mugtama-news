@@ -399,6 +399,7 @@ nav.top-nav {
     .dropdown-menu {
         background: var(--color-secondary);
         border-radius: 0px;
+        width: fit-content;
 
         .dropdown-item {
             color: #FFF;

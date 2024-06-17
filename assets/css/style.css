@@ -218,6 +218,58 @@ a:hover {
   border-radius: 30px;
 }
 
+.loading-container {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column !important;
+}
+.loading-container svg {
+  width: 3.5em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+}
+.loading-container svg.white circle {
+  stroke: hsl(0, 0%, 100%);
+}
+.loading-container svg.sm {
+  width: 2em;
+}
+.loading-container svg.md {
+  width: 3.5em;
+}
+.loading-container svg.lg {
+  width: 5em;
+}
+.loading-container circle {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+}
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}
+
 .container {
   max-width: 1300px;
 }
@@ -521,6 +573,11 @@ a:hover {
   border-color: rgba(8, 176, 237, 0.0941176471);
   color: #08b0ed;
 }
+.social-media-icons-colored a.whatsapp {
+  background: rgba(40, 166, 26, 0.0941176471);
+  border-color: rgba(40, 166, 26, 0.0941176471);
+  color: #29a61a;
+}
 
 .social-media-links.links-lg .link {
   width: 45px;
@@ -622,13 +679,16 @@ ul.latest-news-list {
   z-index: 9;
 }
 .one-media .details .title {
-  margin-bottom: 8px;
   display: flex;
   margin-bottom: 8px;
-  display: flex;
   font-size: 18px;
   color: #333;
   font-weight: 600;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .co-breadcrumb {
@@ -986,6 +1046,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
 .dropdown .dropdown-menu {
   background: var(--color-secondary);
   border-radius: 0px;
+  width: fit-content;
 }
 .dropdown .dropdown-menu .dropdown-item {
   color: #FFF;
@@ -1285,7 +1346,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   .dropdown-menu .dropdown-item .link {
     width: 100%;
     display: block;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 25px;
   }
   .dropdown-menu .dropdown-item .link.dropdown-toggle-arrow::after {
     content: "\f053";

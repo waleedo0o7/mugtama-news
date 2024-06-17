@@ -363,6 +363,13 @@
             border-color: #08b0ed18;
             color: #08b0ed;
         }
+        
+        &.whatsapp {
+            background: #28a61a18;
+            border-color: #28a61a18;
+            color: #29a61a;
+        }
+
     }
 }
 
@@ -484,13 +491,16 @@ ul.latest-news-list {
         z-index: 9;
 
         .title {
-            margin-bottom: 8px;
             display: flex;
             margin-bottom: 8px;
-            display: flex;
             font-size: 18px;
             color: #333;
             font-weight: 600;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
     }
 }

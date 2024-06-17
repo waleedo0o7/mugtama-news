@@ -53,7 +53,20 @@
                         <button class="btn btn-action button"> <i class="fa fa-search"></i></button>
                     </div><!-- form-group -->
 
+
+                    <!-- if NOT auth -->
                     <a href="auth-login.php" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-lock me-1"></i> تسجيل دخول </a>
+
+                    <!-- if auth -->
+                    <div class="dropdown">
+                        <button class="btn btn-primary border-radius-0" type="button" data-toggle="dropdown">
+                            <i class="fa fa-user"></i>
+                            اسم المستخدم
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item px-4 py-2" href="#">لوحة التحكم</a>
+                        </div>
+                    </div>
 
                     <a href="auth-send-article.php" class="btn btn-primary mx-2 py-2 border-radius-0"> <i class="fa fa-envelope me-1"></i> ارسل مقالا </a>
 
@@ -111,7 +124,6 @@
                             </a>
                         </li>
 
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list-kwt.php?dir=rtl">الكويت</a>
                         </li>
@@ -124,7 +136,7 @@
 
                                 <li class="dropdown-item dropdown-submenu">
 
-                                    <a href="#" class="link dropdown-toggle-arrow">Submenu-1</a>
+                                    <a href="#" class="link dropdown-toggle-arrow">Submenu-1 Submenu-1 Submenu-1</a>
 
                                     <ul class="dropdown-menu">
                                         <li class="dropdown-item">
@@ -154,9 +166,6 @@
                             <a class="nav-link" href="blog-list.php?dir=rtl"> المجتمع</a>
                         </li>
 
-
- 
-
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> الإسلام والحياة </a>
                         </li>
@@ -164,15 +173,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> مسلمون حول العالم </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> تقارير وحوارات </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> القضية الفلسطينية </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="video-media.php?dir=rtl"> مرئيات </a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="blog-list.php?dir=rtl"> استشارات </a>
                         </li>
@@ -210,7 +223,6 @@
 
                             </ul>
                         </li>
- 
 
                     </ul> <!-- navbar-nav -->
                 </div>

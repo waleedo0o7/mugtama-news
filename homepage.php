@@ -266,7 +266,7 @@
                                 </a> <!-- overlay -->
                             </div> <!-- co-image -->
                             <div class="details">
-                                <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
+                                <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                     <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
