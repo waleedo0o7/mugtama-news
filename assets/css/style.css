@@ -1316,6 +1316,9 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
     width: 404px;
     height: 500px;
   }
+  .one-news-style-1 .image {
+    height: 415px;
+  }
 }
 @media all and (min-width: 767px) {
   .dropdown > .dropdown-menu {
