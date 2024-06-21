@@ -1316,8 +1316,11 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
     width: 404px;
     height: 500px;
   }
-  .one-news-style-1 .image {
+  .co-muslims .one-news-style-1 .image {
     height: 415px;
+  }
+  .co-caricature .one-news-style-2 .image {
+    height: 287px;
   }
 }
 @media all and (min-width: 767px) {
