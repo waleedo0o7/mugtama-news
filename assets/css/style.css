@@ -1326,6 +1326,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
     width: 100%;
   }
   .co-blogs-list .one-news-style-2.blog .image,
+  .co-blogs-list .one-news-style-2.article .image,
   .co-blogs-list .one-news-style-2.file .image {
     height: 233px;
     object-fit: cover;
@@ -1339,6 +1340,11 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   }
   .co-blogs-list .one-news-style-2.caricature .image {
     height: 283px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .co-blogs-list .one-news-style-2.infograph .image {
+    height: 504px;
     object-fit: cover;
     width: 100%;
   }
