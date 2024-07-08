@@ -42,11 +42,9 @@
                         </div>
                     </div>
 
-
-
                 </div> <!-- row -->
 
-                <button type="submit" class="btn btn-primary"> ارسال </button>
+                <button type="submit" class="btn btn-primary" disabled> ارسال </button>
 
             </form>
 

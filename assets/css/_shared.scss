@@ -263,13 +263,18 @@
         overflow: hidden;
         font-size: 15px;
     }
+
+
+    .details {
+        width: 60%;
+    }
 }
 
 .co-sidebar {
 
     .one-news-style-4 .image {
         width: 164px;
-        height: auto;
+        height: 100%;
     }
 }
 

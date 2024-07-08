@@ -162,6 +162,16 @@ a:hover {
   box-shadow: none !important;
 }
 
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+.btn-primary.disabled:hover, .btn-primary:disabled:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #FFF;
+}
+
 .border-radius-0 {
   border-radius: 0 !important;
 }
@@ -494,10 +504,13 @@ a:hover {
   overflow: hidden;
   font-size: 15px;
 }
+.one-news-style-4 .details {
+  width: 60%;
+}
 
 .co-sidebar .one-news-style-4 .image {
   width: 164px;
-  height: auto;
+  height: 100%;
 }
 
 .co-input-with-btn {
@@ -1026,7 +1039,7 @@ nav.top-nav .navbar-nav .nav-item.dropdown .nav-link:after {
 }
 nav.top-nav .navbar-nav .nav-item .nav-link {
   color: #FFF;
-  padding: 10px 17px !important;
+  padding: 10px 13px !important;
   position: relative;
   font-size: 16px;
 }

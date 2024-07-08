@@ -266,7 +266,7 @@
                                 </a> <!-- overlay -->
                             </div> <!-- co-image -->
                             <div class="details">
-                                <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين  الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
+                                <a href="#" class="title"> الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين الإسراء والمعراج محور قصة المسجد الأقصى وفلسطين </a>
                                 <div class="d-flex">
                                     <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                     <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -283,7 +283,9 @@
 
     <section class="banner py-5">
         <div class="container">
-            <a href="blog-single.php"><img src="assets/images/banner-01.jpg" class="img-fluid border-radius-30"></a>
+            <div class="col-lg-10 m-auto">
+                <a href="blog-single.php"><img src="assets/images/banner-01.jpg" class="img-fluid border-radius-30"></a>
+            </div>
         </div>
     </section> <!-- banner -->
 
