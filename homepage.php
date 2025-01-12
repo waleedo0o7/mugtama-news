@@ -2,6 +2,48 @@
 
 <main class="main">
 
+
+
+
+
+    <section class="mb-3 mobile-categories-wrapper">
+        <div class="container">
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper mobile-categories-swiper">
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 10) as $i) { ?>
+                                <div class="swiper-slide">
+
+                                    <div class="slide-content one-category <?php echo 'active' ?>">
+                                        <a href="blog-single.php">
+                                            <img src="assets/images/cat-0<?php echo $i ?>.png" class="img-fluid image">
+                                        </a>
+                                        <a href="blog-single.php">
+                                            <p class="title bold mb-1">  الأسلام والحياة </p>
+                                        </a>
+
+                                    </div> <!-- one-category -->
+
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev mobile-categories-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next mobile-categories-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+
+        </div><!-- container -->
+    </section><!-- mb-3 -->    
+
     <section class="mb-3">
         <div class="container">
             <div class="co-latest-news-and-visit-site row">

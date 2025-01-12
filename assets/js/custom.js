@@ -2,6 +2,9 @@ $(function () {
     initPrimarySlider();
     initDefaultSlider();
     initDefaultFourItemsSlider();
+
+    initMobileCategoriesSlider();
+
 });
 
 function initDefaultSlider() {
@@ -29,7 +32,6 @@ function initDefaultSlider() {
     });
 }
 
-
 function initDefaultFourItemsSlider() {
     const swiper = new Swiper('.default-four-swiper', {
         direction: 'horizontal',
@@ -55,8 +57,6 @@ function initDefaultFourItemsSlider() {
     });
 }
 
-
-
 function initPrimarySlider() {
     const swiper = new Swiper('.primary-swiper', {
         direction: 'horizontal',
@@ -71,6 +71,27 @@ function initPrimarySlider() {
             el: '.primary-swiper-pagination',
             type: 'bullets',
             clickable: true
+        }
+
+    });
+}
+
+function initMobileCategoriesSlider() {
+    const swiper = new Swiper('.mobile-categories-swiper', {
+        direction: 'horizontal',
+        loop: false,
+        slidesPerView: 3.5,
+        spaceBetween: 20,
+        navigation: {
+            nextEl: '.mobile-categories-swiper-button-next',
+            prevEl: '.mobile-categories-swiper-button-prev',
+        },
+
+        breakpoints: {
+            768: {
+                slidesPerView: 6.5,
+                spaceBetween: 20,
+            },
         }
 
     });

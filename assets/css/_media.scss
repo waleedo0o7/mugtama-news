@@ -4,6 +4,14 @@
 // +992
 @media all and (min-width: 992px) {
 
+    .mobile-categories-wrapper{
+        display: none;
+    }
+
+    .mobile-bottom-navigation-bar-wrapper {
+        display: none;
+    }
+
     .mobile-menu {
         display: none;
     }
@@ -84,13 +92,13 @@
 
     }
 
-    .co-blogs-list .one-news-style-2.caricature .image{
+    .co-blogs-list .one-news-style-2.caricature .image {
         height: 283px;
         object-fit: cover;
         width: 100%;
     }
 
-    .co-blogs-list .one-news-style-2.infograph .image{
+    .co-blogs-list .one-news-style-2.infograph .image {
         height: 504px;
         object-fit: cover;
         width: 100%;
@@ -170,7 +178,100 @@
 @media all and (max-width: 1200px) {}
 
 // -992
+
 @media all and (max-width: 992px) {
+
+
+    .mobile-categories-wrapper{
+        display: block;
+    }
+
+    .mobile-bottom-navigation-bar-wrapper {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #FFF;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        box-shadow: 0 0 10px #e5e5e5;
+
+        .item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0 8px 0;
+            color: #5e5e5e;
+            position: relative;
+
+            svg {
+                path {
+                    fill: #bbbbbb;
+                }
+            }
+
+            .text {
+                margin-bottom: 0;
+                color: #bbbbbb;
+            }
+
+            &.active {
+                .text {
+                    color: #000;
+                }
+
+
+                svg {
+                    path {
+                        fill: #000;
+                    }
+                }
+
+
+
+                &:after,
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 500px;
+                    translate: -50% -50%;
+                }
+
+                &:before {
+                    width: 25px;
+                    height: 25px;
+                    background: #FFF;
+
+                }
+
+                &:after {
+                    width: 13px;
+                    height: 13px;
+                    background: var(--color-primary);
+
+                }
+
+            }
+
+            &.pdf {
+                svg {
+                    path {
+                        fill: var(--color-primary) !important;
+                    }
+                }
+            }
+
+        }
+
+    }
 
     .top-bar,
     .logo-and-banner-wrapper,
