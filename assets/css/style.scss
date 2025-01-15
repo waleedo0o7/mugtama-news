@@ -480,9 +480,11 @@ nav.top-nav {
     }
 
     .mobile-bar-icon {
-        background-color: #FFF;
-        font-size: 16px;
-        padding: 10px;
+        background-color: var(--color-secondary);
+        font-size: 20px;
+        padding: 12px;
+        color: #FFF;
+        border-radius: 11px;
     }
 
     .social-media-icons {
