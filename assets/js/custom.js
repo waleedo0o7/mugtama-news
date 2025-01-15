@@ -102,17 +102,17 @@ function initMobileCategoriesSlider() {
 
 jQuery(document).ready(function ($) {
 
-    const openMenuBtn = document.getElementById("openMenu");
-    const closeMenuBtn = document.getElementById("closeMenu");
+    const openMenuBtn = document.getElementById("open-menu");
+    const closeMenuBtn = document.getElementById("close-menu");
 
     openMenuBtn.addEventListener("click", function (e) {
         e.preventDefault();
-        $("#mobileMenu").fadeIn(0);
+        $("#mobile-menu").fadeIn(0);
     });
 
     closeMenuBtn.addEventListener("click", function (e) {
         e.preventDefault();
-        $("#mobileMenu").fadeOut(0);
+        $("#mobile-menu").fadeOut(0);
     });
 
     mobileNavMenuRender();
@@ -121,7 +121,7 @@ jQuery(document).ready(function ($) {
         $(".co-mobile-search-wrapper").css("display", "flex");
     });
 
-    $("#closeSearch").on("click", function () {
+    $("#close-search").on("click", function () {
         $(".co-mobile-search-wrapper").css("display", "none");
     });
 

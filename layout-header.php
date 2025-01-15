@@ -235,7 +235,7 @@
 
         <div class="row m-0 mb-3">
             <div class="col-2 d-inline-flex justify-content-center align-items-center">
-                <div class="menu-btn" id="openMenu">
+                <div class="menu-btn" id="open-menu">
                     <i class="fa fa-bars mobile-bar-icon"></i>
                 </div><!-- menu-btn -->
             </div>
@@ -277,10 +277,10 @@
 
     </div><!-- mobile-menu -->
 
-    <div class="co-mobile-menu" id="mobileMenu">
+    <div class="co-mobile-menu" id="mobile-menu">
         <nav class="nav-drill">
 
-            <a href="#" id="closeMenu">
+            <a href="#" id="close-menu">
                 <i class="fa fa-times"></i>
             </a>
 
@@ -323,7 +323,7 @@
 
     <div class="co-mobile-search-wrapper" id="mobile-search">
 
-        <a href="#" id="closeSearch">
+        <a href="#" id="close-search">
             <i class="fa fa-times"></i>
         </a>
 

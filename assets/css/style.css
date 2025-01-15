@@ -1292,8 +1292,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   align-items: center;
 }
 
-#closeMenu,
-.close-menu {
+#close-menu {
   font-size: 22px;
   padding: 10px;
   margin: 10px;
@@ -1303,8 +1302,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   color: #FFF;
 }
 
-#closeSearch,
-.close-search {
+#close-search {
   font-size: 22px;
   padding: 10px;
   margin: 10px;
