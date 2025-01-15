@@ -1303,7 +1303,8 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   color: #FFF;
 }
 
-#closeSearch {
+#closeSearch,
+.close-search {
   font-size: 22px;
   padding: 10px;
   margin: 10px;
