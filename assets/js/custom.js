@@ -102,8 +102,6 @@ function initMobileCategoriesSlider() {
 
 jQuery(document).ready(function ($) {
 
-    alert("aaa");
-
     const openMenuBtn = document.getElementById("openMenu");
     const closeMenuBtn = document.getElementById("closeMenu");
 
