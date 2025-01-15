@@ -117,7 +117,7 @@ jQuery(document).ready(function ($) {
 
     mobileNavMenuRender();
 
-    $("#openSearch").on("click", function () {
+    $("#open-search").on("click", function () {
         $(".co-mobile-search-wrapper").css("display", "flex");
     });
 

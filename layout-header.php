@@ -245,7 +245,7 @@
                 </div> <!-- logo -->
             </div>
             <div class="col-2 d-inline-flex justify-content-center align-items-center">
-                <div class="search" id="openSearch">
+                <div class="search" id="open-search">
                     <i class="fa fa-search mobile-bar-icon"></i>
                 </div> <!-- search -->
             </div>
