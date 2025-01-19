@@ -427,6 +427,9 @@ a:hover {
 .one-news-style-2 .image {
   border-radius: 10px;
   margin-bottom: 5px;
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
 }
 .one-news-style-2 .title {
   display: -webkit-box;
@@ -446,6 +449,7 @@ a:hover {
 .one-news-style-3 .image {
   border-radius: 10px;
   height: 175px;
+  width: 100%;
 }
 
 .one-news-style-4 {
@@ -510,7 +514,8 @@ a:hover {
 
 .co-sidebar .one-news-style-4 .image {
   width: 164px;
-  height: 100%;
+  height: 110px;
+  object-fit: cover;
 }
 
 .co-input-with-btn {
@@ -942,6 +947,7 @@ footer .footer-widget .logo {
 }
 .co-latest-news-and-visit-site .co-visit-site img {
   width: 100%;
+  height: 80px;
 }
 
 .co-video {
