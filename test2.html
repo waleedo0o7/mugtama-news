@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin Section on Scroll</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: lightblue;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .spacer {
+            height: 800px;
+            /* Simulate space between sections */
+        }
+
+        .pinned {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="section" id="section1">Section 1</div>
+        <div class="spacer"></div>
+        <div class="section" id="section2">Section 2</div>
+        <div class="spacer"></div>
+        <div class="section" id="section3">Section 3</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            var $sections = $('.section');
+
+            $(window).on('scroll', function () {
+                $sections.each(function () {
+                    var sectionTop = $(this).offset().top - $(window).scrollTop();
+                    var sectionHeight = $(this).outerHeight();
+
+                    if (sectionTop <= 0 && sectionTop + sectionHeight > 0) {
+                        $(this).addClass('pinned');
+                    } else {
+                        $(this).removeClass('pinned');
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>

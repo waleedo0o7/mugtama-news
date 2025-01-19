@@ -428,8 +428,7 @@ a:hover {
   border-radius: 10px;
   margin-bottom: 5px;
   width: 100%;
-  height: 235px;
-  object-fit: cover;
+  height: auto;
 }
 .one-news-style-2 .title {
   display: -webkit-box;
@@ -495,7 +494,7 @@ a:hover {
 }
 .one-news-style-4 .image {
   width: 164px;
-  height: 101px;
+  height: 102px;
   margin-inline-end: 10px;
   border-radius: 10px;
 }
@@ -515,7 +514,6 @@ a:hover {
 .co-sidebar .one-news-style-4 .image {
   width: 164px;
   height: 110px;
-  object-fit: cover;
 }
 
 .co-input-with-btn {
@@ -526,6 +524,9 @@ a:hover {
   top: 0;
   right: 0;
   border-radius: 8px;
+  width: 75px;
+  border: none !important;
+  height: 38px;
 }
 
 .social-media-icons a {
@@ -739,6 +740,21 @@ footer .copyrights {
 }
 footer .footer-widget .logo {
   width: 150px;
+}
+
+main.single-article .co-image img {
+  width: 100%;
+}
+main.all-articles .articles-list-wrapper .one-news-style-2 .image {
+  height: 235px;
+}
+main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2 .image {
+  height: 130px;
+}
+
+.co-muslims img {
+  width: 400;
+  height: 330px;
 }
 
 .category {
@@ -1013,7 +1029,7 @@ footer .footer-widget .logo {
 }
 
 .co-input-with-btn input.form-control.search {
-  background: #efefef;
+  background: #f5f5f5;
 }
 
 .categories-btns-wrapper {

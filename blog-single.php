@@ -11,7 +11,7 @@
     </div>
 </div><!-- co-breadcrumb -->
 
-<main class="main pb-5">
+<main class="main pb-5 single-article">
 
     <div class="container">
         <div class="row">
@@ -93,7 +93,7 @@
 
 
 
-                
+
                 <div class="co-leave-comment">
 
                     <div class="co-section-title mb-3">
@@ -154,7 +154,9 @@
                             <div class="col-sm-4">
                                 <div class="one-news-style-2">
                                     <a href="blog-single.php"> <img src="assets/images/blog.jpg" class="img-fluid image"> </a>
-                                    <a href="blog-single.php"> <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p> </a>
+                                    <a href="blog-single.php">
+                                        <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
+                                    </a>
                                     <div class="d-flex">
                                         <p class="date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
                                         <p class="views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
@@ -208,7 +210,7 @@
                     <div class="latest-news-list mb-3">
 
 
-                    <?php foreach (range(0, 4) as $i) { ?>
+                        <?php foreach (range(0, 4) as $i) { ?>
                             <div class="one-news-style-4 p-2">
                                 <a href="blog-single.php" class="me-3">
                                     <img src="assets/images/mostest.jpg" class="img-fluid image">

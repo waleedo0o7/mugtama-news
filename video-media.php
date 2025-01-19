@@ -58,7 +58,7 @@
         </div>
     </section><!-- categories -->
 
-    <section class="pb-4">
+    <section class="pb-4 search-section">
         <div class="col-md-5 m-auto">
             <h4 class="text-center mb-3"> ابحث في مرئيات </h4>
             <div class="form-group co-input-with-btn mb-0">

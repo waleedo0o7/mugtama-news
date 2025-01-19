@@ -12,7 +12,7 @@
     </div>
 </div><!-- co-breadcrumb -->
 
-<main class="main pb-5">
+<main class="main pb-5 all-articles">
 
     <div class="container">
         <div class="row">
