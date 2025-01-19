@@ -15,7 +15,7 @@
     --swiper-pagination-color: var(--color-light-gray);
 }
 
- 
+
 
 body {
     font-size: 14px;
@@ -37,9 +37,11 @@ body {
 }
 
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    background-color:  var(--color-primary) !important;
-    border-color:  var(--color-primary) !important;
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
 }
 
 .bg-secondary {
@@ -151,10 +153,28 @@ a {
     border-color: var(--color-primary);
 
     &:hover {
-        color: var(--color-primary-dark);
-        background-color: #fff;
-        border-color: var(--color-primary-darky);
+        color: #fff;
+        background-color: var(--color-primary-dark);
+        border-color: var(--color-primary-dark);
     }
+}
+
+.btn-outline-primary {
+    color: var(--color-primary);
+    background-color: #FFF;
+    border-color: var(--color-primary);
+
+    &:hover {
+        color: #fff;
+        background-color: var(--color-primary-dark);
+        border-color: var(--color-primary-dark);
+    }
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .btn-secondary {
@@ -169,17 +189,20 @@ a {
     }
 }
 
+
+
 .btn:focus,
 .btn.focus {
     box-shadow: none !important;
 }
 
 
-.btn-primary.disabled, .btn-primary:disabled{
+.btn-primary.disabled,
+.btn-primary:disabled {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
 
-    &:hover{
+    &:hover {
         background-color: var(--color-primary);
         border-color: var(--color-primary);
         color: #FFF;
@@ -270,9 +293,11 @@ a {
         &.sm {
             width: 2em;
         }
+
         &.md {
             width: 3.5em;
         }
+
         &.lg {
             width: 5em;
         }
@@ -310,5 +335,3 @@ a {
         }
     }
 }
-
-

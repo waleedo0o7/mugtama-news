@@ -486,6 +486,7 @@ nav.top-nav {
         padding: 12px;
         color: #FFF;
         border-radius: 11px;
+        cursor: pointer;
     }
 
     .social-media-icons {
@@ -770,6 +771,51 @@ $nav-level5-background-color: #444;
     height: fit-content;
 }
 
+
+.tap-buttons-wrapper {
+
+    .btn-outline-primary {
+        &.active {
+            color: #FFF !important;
+            background-color: var(--color-primary) !important;
+            ;
+            border-color: var(--color-primary) !important;
+            ;
+
+            &:hover {
+                color: #fff !important;
+                ;
+                background-color: var(--color-primary-dark) !important;
+                ;
+                border-color: var(--color-primary-dark) !important;
+                ;
+            }
+        }
+    }
+
+}
+
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn {
+        border-radius: 0px !important;
+        min-width: 130px;
+
+        &:first-child {
+            border-radius: 0 10px 10px 0 !important
+        }
+
+        &:last-child {
+            border-radius: 10px 0 0 10px !important
+        }
+    }
+
+}
 
 
 

@@ -34,7 +34,9 @@ body {
   background-color: var(--color-primary) !important;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
   background-color: var(--color-primary) !important;
   border-color: var(--color-primary) !important;
 }
@@ -141,9 +143,26 @@ a:hover {
   border-color: var(--color-primary);
 }
 .btn-primary:hover {
-  color: var(--color-primary-dark);
-  background-color: #fff;
-  border-color: var(--color-primary-darky);
+  color: #fff;
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-outline-primary {
+  color: var(--color-primary);
+  background-color: #FFF;
+  border-color: var(--color-primary);
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show > .btn-outline-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-secondary {
@@ -162,11 +181,13 @@ a:hover {
   box-shadow: none !important;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
 }
-.btn-primary.disabled:hover, .btn-primary:disabled:hover {
+.btn-primary.disabled:hover,
+.btn-primary:disabled:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #FFF;
@@ -1139,6 +1160,7 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   padding: 12px;
   color: #FFF;
   border-radius: 11px;
+  cursor: pointer;
 }
 .mobile-menu .social-media-icons {
   background: #FFF;
@@ -1343,6 +1365,34 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
 .co-sliders {
   position: relative;
   height: fit-content;
+}
+
+.tap-buttons-wrapper .btn-outline-primary.active {
+  color: #FFF !important;
+  background-color: var(--color-primary) !important;
+  border-color: var(--color-primary) !important;
+}
+.tap-buttons-wrapper .btn-outline-primary.active:hover {
+  color: #fff !important;
+  background-color: var(--color-primary-dark) !important;
+  border-color: var(--color-primary-dark) !important;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-group .btn {
+  border-radius: 0px !important;
+  min-width: 130px;
+}
+.btn-group .btn:first-child {
+  border-radius: 0 10px 10px 0 !important;
+}
+.btn-group .btn:last-child {
+  border-radius: 10px 0 0 10px !important;
 }
 
 @media all and (min-width: 992px) {
