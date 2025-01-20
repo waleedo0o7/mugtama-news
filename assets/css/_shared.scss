@@ -568,14 +568,6 @@ main {
         }
     }
 
-    &.all-articles {
-        .one-news-style-2 {
-            .image {
-                height: 235px;
-            }
-        }
-    }
-
     &.homepage {
         .co-intro-section {
             .co-sliders {
@@ -593,6 +585,14 @@ main {
 }
 
 
+.articles-list-wrapper {
+    .one-news-style-2 {
+        .image {
+            height: 235px;
+        }
+    }
+}
+
 
 .co-muslims {
     img {
@@ -601,4 +601,10 @@ main {
     }
 }
 
-.search-section {}
+
+
+.co-related-blogs {
+    .one-news-style-2 .image {
+        height: 150px;
+    }
+}

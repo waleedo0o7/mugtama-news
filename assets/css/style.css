@@ -770,16 +770,21 @@ footer .footer-widget .logo {
 main.single-article .co-image img {
   width: 100%;
 }
-main.all-articles .one-news-style-2 .image {
-  height: 235px;
-}
 main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2 .image {
   height: 130px;
+}
+
+.articles-list-wrapper .one-news-style-2 .image {
+  height: 235px;
 }
 
 .co-muslims img {
   width: 400;
   height: 330px;
+}
+
+.co-related-blogs .one-news-style-2 .image {
+  height: 150px;
 }
 
 .category {

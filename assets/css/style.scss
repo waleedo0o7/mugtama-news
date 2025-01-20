@@ -304,7 +304,7 @@
         border: 2px solid #5c8b69;
         padding: 3px;
     }
-    
+
     &.sm {
         width: 25px;
         height: 25px;
@@ -823,8 +823,9 @@ $nav-level5-background-color: #444;
 }
 
 .content-inner {
-    figure.image{
+    figure.image {
         max-width: 100%;
+
         img {
             width: 100%;
         }
