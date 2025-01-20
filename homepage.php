@@ -1,6 +1,6 @@
 <?php include 'layout-header.php'; ?>
 
-<main class="main">
+<main class="main homepage">
 
 
 
@@ -21,7 +21,7 @@
                                             <img src="assets/images/cat-0<?php echo $i ?>.png" class="img-fluid image">
                                         </a>
                                         <a href="blog-single.php">
-                                            <p class="title bold mb-1">  الأسلام والحياة </p>
+                                            <p class="title bold mb-1"> الأسلام والحياة </p>
                                         </a>
 
                                     </div> <!-- one-category -->
@@ -42,7 +42,7 @@
             </div><!-- co-default-slider -->
 
         </div><!-- container -->
-    </section><!-- mb-3 -->    
+    </section><!-- mb-3 -->
 
     <section class="mb-3">
         <div class="container">
@@ -184,7 +184,12 @@
                                                     <a href="blog-single.php">
                                                         <p class="color-black title bold mb-1"> 10 عبادات مهمة في فصل الشتاء </p>
                                                     </a>
-                                                    <p class="date small color-gray"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+
+                                                    <div class="d-flex">
+                                                        <p class="date small color-gray me-2 mb-1"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                                        <p class="views small color-gray mb-1"> <i class="fa fa-eye"></i> 150 </p>
+                                                    </div>
+
                                                 </div>
 
                                             </div>

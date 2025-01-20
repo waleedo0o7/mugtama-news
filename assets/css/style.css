@@ -433,6 +433,7 @@ a:hover {
   height: 100%;
   border-radius: 10px;
   overflow: hidden;
+  object-fit: cover;
 }
 .one-news-style-1 .details {
   position: absolute;
@@ -450,6 +451,7 @@ a:hover {
   margin-bottom: 5px;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .one-news-style-2 .title {
   display: -webkit-box;
@@ -470,6 +472,7 @@ a:hover {
   border-radius: 10px;
   height: 175px;
   width: 100%;
+  object-fit: cover;
 }
 
 .one-news-style-4 {
@@ -518,6 +521,7 @@ a:hover {
   height: 102px;
   margin-inline-end: 10px;
   border-radius: 10px;
+  object-fit: cover;
 }
 .one-news-style-4 .title {
   color: #000;
@@ -594,9 +598,9 @@ a:hover {
   color: rgb(59, 89, 152);
 }
 .social-media-icons-colored a.twitter {
-  background: rgba(29, 161, 242, 0.12);
-  border-color: rgba(29, 161, 242, 0.12);
-  color: rgb(29, 161, 242);
+  background: rgba(0, 0, 0, 0.12);
+  border-color: rgba(0, 0, 0, 0.12);
+  color: rgb(0, 0, 0);
 }
 .social-media-icons-colored a.youtube {
   background: rgba(255, 209, 209, 0.34);
@@ -642,7 +646,7 @@ a:hover {
   background: #1975d1;
 }
 .social-media-links .link.twitter {
-  background: #50aaf0;
+  background: #000000;
 }
 .social-media-links .link.whatsapp {
   background: #29a61a;
@@ -766,7 +770,7 @@ footer .footer-widget .logo {
 main.single-article .co-image img {
   width: 100%;
 }
-main.all-articles .articles-list-wrapper .one-news-style-2 .image {
+main.all-articles .one-news-style-2 .image {
   height: 235px;
 }
 main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2 .image {
@@ -1029,6 +1033,10 @@ main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2
   height: 100px;
   border: 2px solid #5c8b69;
   padding: 3px;
+}
+.author-image.sm {
+  width: 25px;
+  height: 25px;
 }
 
 .top-bar {
@@ -1393,6 +1401,21 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
 }
 .btn-group .btn:last-child {
   border-radius: 10px 0 0 10px !important;
+}
+
+.content-inner figure.image {
+  max-width: 100%;
+}
+.content-inner figure.image img {
+  width: 100%;
+}
+
+.single-article .row .co-image {
+  width: 100%;
+}
+
+.co-swiper-slider .one-news-style-2 .image {
+  height: 240px;
 }
 
 @media all and (min-width: 992px) {

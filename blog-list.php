@@ -25,14 +25,34 @@
 
                         <?php foreach (range(0, 1) as $i) { ?>
                             <div class="col-sm-6">
-                                <div class="one-news-style-2 blog mb-2">
+
+
+                                <div class="one-news-style-2 blog mb-5">
+
                                     <a href="blog-single.php?dir=rtl"> <img src="assets/images/blog.jpg" class="img-fluid image"> </a>
                                     <a href="blog-single.php?dir=rtl" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاءعبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء </a>
-                                    <div class="d-flex">
-                                        <p class="mb-2 date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
-                                        <p class="mb-2 views small color-gray"> <i class="fa fa-eye"></i> 150 </p>
-                                    </div>
 
+                                    <div class="d-flex align-items-center justify-content-between user-data mb-3">
+
+                                        <div class="d-flex align-items-center">
+                                            <a href="author-single.php?dir=rtl">
+                                                <img src="assets/images/author.jpg" class="img-fluid author-image sm me-2">
+                                            </a>
+
+                                            <p class="mb-0 bold me-2">
+                                                <a href="author-single.php?dir=rtl"> إبراهيم الطرابلسي </a>
+                                            </p>
+
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <p class="date small color-gray mb-0 me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
+                                            <p class="views small color-gray m-0"> <i class="fa fa-eye"></i> 150 </p>
+                                        </div>
+
+
+
+                                    </div>
 
 
                                     <ul class="reset-list social-media-icons-colored icons-sm icons-start mb-4">
@@ -43,6 +63,8 @@
                                         <li><a href="#" class="color-black telegram"> <i class="fab fa-telegram"></i> </a></li>
                                         <li><a href="#" class="color-black whatsapp"> <i class="fab fa-whatsapp"></i> </a></li>
                                     </ul>
+
+
 
 
                                 </div>
@@ -130,7 +152,7 @@
                         <?php foreach (range(0, 1) as $i) { ?>
                             <div class="col-sm-6">
                                 <div class="one-news-style-2 caricature mb-2">
-                                    <a href="blog-single.php?dir=rtl"> <img src="assets/images/caricature-<?php echo $i +1 ?>.jpg" class="img-fluid image"> </a>
+                                    <a href="blog-single.php?dir=rtl"> <img src="assets/images/caricature-<?php echo $i + 1 ?>.jpg" class="img-fluid image"> </a>
                                     <a href="blog-single.php?dir=rtl" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاءعبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء </a>
                                     <div class="d-flex">
                                         <p class="mb-2 date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
@@ -155,11 +177,11 @@
 
 
 
-                        
+
                         <?php foreach (range(0, 1) as $i) { ?>
                             <div class="col-sm-6">
                                 <div class="one-news-style-2 infograph mb-2">
-                                    <a href="blog-single.php?dir=rtl"> <img src="assets/images/infograph<?php echo $i +1 ?>.jpg" class="img-fluid image"> </a>
+                                    <a href="blog-single.php?dir=rtl"> <img src="assets/images/infograph<?php echo $i + 1 ?>.jpg" class="img-fluid image"> </a>
                                     <a href="blog-single.php?dir=rtl" class="title bold mb-1 color-black"> 10 عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاءعبادات مهمة في فصل الشتاء عبادات مهمة في فصل الشتاء </a>
                                     <div class="d-flex">
                                         <p class="mb-2 date small color-gray me-2"> <i class="fa fa-clock"></i> فبراير 11, 2024 </p>
@@ -227,7 +249,7 @@
                     <div class="latest-news-list mb-3">
 
 
-                    <?php foreach (range(0, 4) as $i) { ?>
+                        <?php foreach (range(0, 4) as $i) { ?>
                             <div class="one-news-style-4 p-2">
                                 <a href="blog-single.php" class="me-3">
                                     <img src="assets/images/mostest.jpg" class="img-fluid image">

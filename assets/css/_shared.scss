@@ -152,6 +152,7 @@
         height: 100%;
         border-radius: 10px;
         overflow: hidden;
+        object-fit: cover;
     }
 
     .details {
@@ -173,6 +174,7 @@
         margin-bottom: 5px;
         width: 100%;
         height: auto;
+        object-fit: cover;
     }
 
     .title {
@@ -197,6 +199,7 @@
         border-radius: 10px;
         height: 175px;
         width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -253,6 +256,7 @@
         height: 102px;
         margin-inline-end: 10px;
         border-radius: 10px;
+        object-fit: cover;
     }
 
     .title {
@@ -350,9 +354,9 @@
         }
 
         &.twitter {
-            background: rgba(29, 161, 242, 0.12);
-            border-color: rgba(29, 161, 242, 0.12);
-            color: rgba(29, 161, 242, 1);
+            background: rgb(0 0 0 / 12%);
+            border-color: rgb(0 0 0 / 12%);
+            color: rgb(0 0 0);
         }
 
         &.youtube {
@@ -411,7 +415,7 @@
         }
 
         &.twitter {
-            background: #50aaf0;
+            background: #000000;
         }
 
         &.whatsapp {
@@ -564,13 +568,10 @@ main {
         }
     }
 
-
     &.all-articles {
-        .articles-list-wrapper {
-            .one-news-style-2 {
-                .image {
-                    height: 235px;
-                }
+        .one-news-style-2 {
+            .image {
+                height: 235px;
             }
         }
     }
@@ -588,16 +589,16 @@ main {
             }
         }
     }
+
 }
 
 
 
-.co-muslims{
+.co-muslims {
     img {
         width: 400;
         height: 330px;
     }
 }
-.search-section{
 
-}
+.search-section {}
