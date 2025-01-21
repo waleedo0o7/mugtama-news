@@ -152,7 +152,6 @@
         height: 100%;
         border-radius: 10px;
         overflow: hidden;
-        object-fit: cover;
     }
 
     .details {
@@ -174,7 +173,6 @@
         margin-bottom: 5px;
         width: 100%;
         height: auto;
-        object-fit: cover;
     }
 
     .title {
@@ -199,7 +197,6 @@
         border-radius: 10px;
         height: 175px;
         width: 100%;
-        object-fit: cover;
     }
 }
 
@@ -256,7 +253,6 @@
         height: 102px;
         margin-inline-end: 10px;
         border-radius: 10px;
-        object-fit: cover;
     }
 
     .title {
@@ -584,7 +580,6 @@ main {
 
 }
 
-
 .articles-list-wrapper {
     .one-news-style-2 {
         .image {
@@ -593,15 +588,12 @@ main {
     }
 }
 
-
 .co-muslims {
     img {
         width: 400;
         height: 330px;
     }
 }
-
-
 
 .co-related-blogs {
     .one-news-style-2 .image {

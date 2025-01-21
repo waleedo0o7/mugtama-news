@@ -433,7 +433,6 @@ a:hover {
   height: 100%;
   border-radius: 10px;
   overflow: hidden;
-  object-fit: cover;
 }
 .one-news-style-1 .details {
   position: absolute;
@@ -451,7 +450,6 @@ a:hover {
   margin-bottom: 5px;
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 .one-news-style-2 .title {
   display: -webkit-box;
@@ -472,7 +470,6 @@ a:hover {
   border-radius: 10px;
   height: 175px;
   width: 100%;
-  object-fit: cover;
 }
 
 .one-news-style-4 {
@@ -521,7 +518,6 @@ a:hover {
   height: 102px;
   margin-inline-end: 10px;
   border-radius: 10px;
-  object-fit: cover;
 }
 .one-news-style-4 .title {
   color: #000;
@@ -1465,34 +1461,28 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   }
   .co-muslims .one-news-style-1 .image {
     height: 415px;
-    object-fit: cover;
   }
   .co-caricature .one-news-style-2 .image {
     height: 287px;
-    object-fit: cover;
     width: 100%;
   }
   .co-blogs-list .one-news-style-2.blog .image,
   .co-blogs-list .one-news-style-2.article .image,
   .co-blogs-list .one-news-style-2.file .image {
     height: 233px;
-    object-fit: cover;
     width: 100%;
   }
   .co-blogs-list .one-news-style-2.edition .image,
   .co-blogs-list .one-news-style-2.quote .image {
     height: 268px;
-    object-fit: cover;
     width: 100%;
   }
   .co-blogs-list .one-news-style-2.caricature .image {
     height: 283px;
-    object-fit: cover;
     width: 100%;
   }
   .co-blogs-list .one-news-style-2.infograph .image {
     height: 504px;
-    object-fit: cover;
     width: 100%;
   }
 }
