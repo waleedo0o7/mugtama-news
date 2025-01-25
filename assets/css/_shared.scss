@@ -514,8 +514,16 @@ ul.latest-news-list {
     }
 }
 
+ 
+
+
 .co-breadcrumb {
     background: #e9ecef;
+    .container > .d-flex {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
 
 .page-title {
@@ -603,10 +611,10 @@ main {
     }
 }
 
- 
- 
+
+
 .pinned {
     position: fixed;
     bottom: 5px;
     width: 403px;
-} 
+}

@@ -779,21 +779,22 @@ $nav-level5-background-color: #444;
 
 .tap-buttons-wrapper {
 
+    .btn {
+        @media (max-width : 992px) {
+            min-width: unset !important;
+        }
+    }
+
     .btn-outline-primary {
         &.active {
             color: #FFF !important;
             background-color: var(--color-primary) !important;
-            ;
             border-color: var(--color-primary) !important;
-            ;
 
             &:hover {
                 color: #fff !important;
-                ;
                 background-color: var(--color-primary-dark) !important;
-                ;
                 border-color: var(--color-primary-dark) !important;
-                ;
             }
         }
     }

@@ -97,10 +97,8 @@ function initMobileCategoriesSlider() {
     });
 }
 
-
-
 if ($(window).width() >= 992) {
-    
+
     $(document).ready(function () {
 
         var $section2 = $('.co-sidebar');
@@ -136,8 +134,6 @@ if ($(window).width() >= 992) {
     });
 
 }
-
-
 
 // mobile menu start
 

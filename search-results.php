@@ -3,7 +3,6 @@
 
 <div class="co-breadcrumb py-2 mb-5">
 
-
     <section class="p-4 search-section">
 
         <div class="col-md-6 m-auto">
@@ -17,11 +16,11 @@
 
 </div>
 
-<main class="main search">
+<main class="main search-results">
 
     <div class="container">
 
-        <div class="tap-buttons-wrapper mb-5">
+        <div class="tap-buttons-wrapper mb-5 d-none">
 
             <div class="btn-group" role="group" aria-label="Basic example">
                 <a href="#" class="btn btn-outline-primary active btn-lg"> مقالات </a>
@@ -33,6 +32,18 @@
             </div>
 
         </div><!-- tap-buttons-wrapper -->
+
+
+        <div class="tap-buttons-wrapper mb-5">
+
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="#" class="btn btn-outline-primary ajax-data active" data-related-wrapper="articles-wrapper"> المقالات </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="visuals-wrapper"> مرئيات </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="infographics-wrapper"> انفوجرافيك </a>
+                <a href="#" class="btn btn-outline-primary ajax-data" data-related-wrapper="caricatures-wrapper"> الكاريكاتير </a>
+            </div>
+
+        </div>
 
 
 

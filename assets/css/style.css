@@ -734,6 +734,11 @@ ul.latest-news-list {
 .co-breadcrumb {
   background: #e9ecef;
 }
+.co-breadcrumb .container > .d-flex {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 
 .page-title * {
   font-weight: bold;
@@ -1384,6 +1389,11 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
   height: fit-content;
 }
 
+@media (max-width: 992px) {
+  .tap-buttons-wrapper .btn {
+    min-width: unset !important;
+  }
+}
 .tap-buttons-wrapper .btn-outline-primary.active {
   color: #FFF !important;
   background-color: var(--color-primary) !important;
