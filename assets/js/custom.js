@@ -97,6 +97,27 @@ function initMobileCategoriesSlider() {
     });
 }
 
+$(document).ready(function () {
+    var $section2 = $('.co-sidebar');
+    var section2Offset = $section2.offset().top; // Section 2's original top offset
+    var lastScrollTop = 0; // Tracks the last scroll position
+
+    $(window).on('scroll', function () {
+        var currentScrollTop = $(this).scrollTop();
+
+        // If scrolling down and past Section 2's original position, pin it
+        if (currentScrollTop > lastScrollTop && currentScrollTop >= section2Offset) {
+            $section2.addClass('pinned');
+        }
+
+        // If scrolling up and back to Section 2's original position, unpin it
+        if (currentScrollTop < lastScrollTop && currentScrollTop < section2Offset) {
+            $section2.removeClass('pinned');
+        }
+
+        lastScrollTop = currentScrollTop; // Update the last scroll position
+    });
+});
 
 // mobile menu start
 

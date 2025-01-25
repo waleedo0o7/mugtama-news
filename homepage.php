@@ -109,7 +109,7 @@
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 d-none d-lg-block col-authors">
+                <div class="col-lg-3 d-lg-block col-authors">
                     <div class="co-authors mb-4 mb-md-0">
 
                         <div class="co-section-title mb-3">
@@ -142,7 +142,7 @@
                     </div><!-- co-authors -->
                 </div><!-- col-lg-3 -->
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sliders">
                     <div class="co-sliders">
                         <div class="co-primary-slider mb-3">
 

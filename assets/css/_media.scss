@@ -4,7 +4,7 @@
 // +992
 @media all and (min-width: 992px) {
 
-    .mobile-categories-wrapper{
+    .mobile-categories-wrapper {
         display: none;
     }
 
@@ -176,7 +176,7 @@
 @media all and (max-width: 992px) {
 
 
-    .mobile-categories-wrapper{
+    .mobile-categories-wrapper {
         display: block;
     }
 
@@ -293,6 +293,25 @@
             }
         }
     }
+
+
+    .co-intro-section {
+        .container {
+            .row {
+                .col-authors {
+                    order: 3;
+                }
+
+                .col-sliders {
+                    order: 1;
+                }
+
+                .col-news {
+                    order: 2;
+                }
+            }
+        }
+    }
 }
 
 // -767
@@ -307,6 +326,11 @@
             display: flex;
         }
     }
+
+    .featured-articles-swiper .swiper-slide {
+        height: auto !important;
+    }
+
 }
 
 // -450
