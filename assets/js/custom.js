@@ -97,27 +97,47 @@ function initMobileCategoriesSlider() {
     });
 }
 
-$(document).ready(function () {
-    var $section2 = $('.co-sidebar');
-    var section2Offset = $section2.offset().top; // Section 2's original top offset
-    var lastScrollTop = 0; // Tracks the last scroll position
 
-    $(window).on('scroll', function () {
-        var currentScrollTop = $(this).scrollTop();
 
-        // If scrolling down and past Section 2's original position, pin it
-        if (currentScrollTop > lastScrollTop && currentScrollTop >= section2Offset) {
-            $section2.addClass('pinned');
-        }
+if ($(window).width() >= 992) {
+    
+    $(document).ready(function () {
 
-        // If scrolling up and back to Section 2's original position, unpin it
-        if (currentScrollTop < lastScrollTop && currentScrollTop < section2Offset) {
-            $section2.removeClass('pinned');
-        }
+        var $section2 = $('.co-sidebar');
 
-        lastScrollTop = currentScrollTop; // Update the last scroll position
+        var windowHeight = window.innerHeight; // Height of the viewport
+
+        var section2Offset = $section2.offset().top + $section2.outerHeight() - windowHeight;
+
+        var lastScrollTop = 0; // Tracks the last scroll position
+
+        $(window).on('scroll', function () {
+            var currentScrollTop = $(this).scrollTop();
+
+
+            console.log(section2Offset)
+
+
+            // If scrolling down and past Section 2's original position, pin it
+            if (currentScrollTop > lastScrollTop && currentScrollTop >= section2Offset) {
+                $section2.addClass('pinned');
+            }
+
+
+
+
+            // If scrolling up and back to Section 2's original position, unpin it
+            if (currentScrollTop < lastScrollTop && currentScrollTop < section2Offset) {
+                $section2.removeClass('pinned');
+            }
+
+            lastScrollTop = currentScrollTop; // Update the last scroll position
+        });
     });
-});
+
+}
+
+
 
 // mobile menu start
 

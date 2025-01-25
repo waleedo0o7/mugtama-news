@@ -787,7 +787,7 @@ main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2
 
 .pinned {
   position: fixed;
-  top: 0;
+  bottom: 5px;
   width: 403px;
 }
 

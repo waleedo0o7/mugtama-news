@@ -37,13 +37,17 @@
     <div class="content">
         <div class="section" id="section1">Section 1</div>
         <div class="spacer"></div>
-        <div class="section" id="section2">Section 2</div>
+        <div class="section" id="section2">
+            Section 2<br> (This is a very large section)<br><br>
+            <!-- Adding more content to make it tall -->
+            <div style="height: 1200px;"></div>
+        </div>
         <div class="spacer"></div>
         <div class="section" id="section3">Section 3</div>
     </div>
 
 
+
 </main> <!-- main -->
 
 <?php include 'layout-footer.php'; ?>
-
