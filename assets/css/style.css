@@ -781,6 +781,10 @@ main.homepage .co-intro-section .co-sliders .co-default-slider .one-news-style-2
   height: 235px;
 }
 
+.caricatures-wrapper .one-news-style-2 .image {
+  height: 320px;
+}
+
 .co-muslims img {
   width: 400;
   height: 330px;
