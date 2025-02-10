@@ -21,10 +21,12 @@
 
             <div class="col-md-6 m-auto">
 
-                <div class="form-group co-input-with-btn mb-0">
+                <div class="form-group co-input-with-btn mb-4">
                     <input type="text" class="form-control search" placeholder="بحث">
                     <button class="btn btn-primary button"> <i class="fa fa-search"></i></button>
                 </div>
+
+                <a href="#" class="btn btn-primary"> الرئيسية </a>
 
             </div>
 
