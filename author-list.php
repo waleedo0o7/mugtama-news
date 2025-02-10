@@ -14,9 +14,23 @@
 </div>
 
 
-<main class="main pb-5">
+<main class="main">
 
     <div class="container">
+
+
+        <div class="col-md-6 m-auto ">
+
+        <h4 class="text-center mb-3"> ابحث عن كاتب </h4>
+
+            <div class="form-group co-input-with-btn mb-4">
+                <input type="text" class="form-control search" placeholder="بحث">
+                <button class="btn btn-primary button"> <i class="fa fa-search"></i></button>
+            </div>
+
+
+        </div>
+
 
         <div class="filter-by-chars d-flex mb-5 justify-content-center align-items-center">
             <div class="chars-wrapper mx-3">
