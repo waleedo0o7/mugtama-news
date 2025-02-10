@@ -1,21 +1,12 @@
 <?php include 'layout-header.php'; ?>
 
-
-
-
 <main class="main pb-5">
 
     <div class="container">
 
-
-
         <div class="error text-center">
 
-            <div style="font-size: 270px; line-height: 1; font-weight: bold; color : #273649">
-                404
-            </div>
-
-            <!-- <img src="assets/images/error-404.png" class="img-fluid" style="width: 600px;"> -->
+            <div class="error-number"> 404 </div>
 
             <h3 class="mb-4"> يبدو ان هناك خطاء في الرابط <br />ويمكنك البحث عن الموضوع من هنا </h3>
 
