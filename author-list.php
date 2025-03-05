@@ -33,7 +33,7 @@
 
 
         <div class="filter-by-chars d-flex mb-5 justify-content-center align-items-center">
-            <div class="chars-wrapper mx-3">
+            <div class="chars-wrapper">
                 <a href="#" class="one-chart"> الكل </a>
                 <a href="#" class="one-chart"> أ </a>
                 <a href="#" class="one-chart"> ب </a>
@@ -70,7 +70,8 @@
         <div class="row">
 
             <?php foreach (range(0, 11) as $i) { ?>
-                <div class="col-sm-6 col-md-3 col-lg-2 mb-5">
+
+                <div class="col-6 col-md-3 col-lg-2 mb-5">
 
                     <div class="author-card">
 
@@ -81,6 +82,7 @@
                     </div><!-- author-card -->
 
                 </div> <!-- col -->
+                
             <?php } ?>
         </div>
 
