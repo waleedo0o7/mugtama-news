@@ -1553,6 +1553,15 @@ nav.top-nav .navbar-nav .nav-item .nav-link:before {
 .col-authors img {
   height: 280px;
 }
+@media all and (max-width: 992px) {
+  .col-authors img {
+    height: auto;
+  }
+}
+
+.gap-1 {
+  gap: 10px;
+}
 
 @media all and (min-width: 992px) {
   .mobile-categories-wrapper {

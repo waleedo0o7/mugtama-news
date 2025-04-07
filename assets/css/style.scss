@@ -975,9 +975,16 @@ $nav-level5-background-color: #444;
 .col-authors {
     img {
         height: 280px;
+
+        @media all and (max-width : 992px) {
+            height: auto;
+        }
     }
 }
 
 
+.gap-1{
+    gap: 10px
+}
 @import "media";
 @import "rtl";

@@ -104,8 +104,8 @@
         <div class="container">
             <div class="row">
 
+                <div class="col-lg-3 d-lg-block d-flex gap-1 col-authors">
 
-                <div class="col-lg-3 d-lg-block col-authors">
 
                     <div class="banner-wrapper mb-4">
                         <a href="#">
