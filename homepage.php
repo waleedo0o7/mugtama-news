@@ -1,11 +1,6 @@
 <?php include 'layout-header.php'; ?>
 
 <main class="main homepage">
-
-
-
-
-
     <section class="mb-3 mobile-categories-wrapper">
         <div class="container">
 
@@ -109,37 +104,21 @@
         <div class="container">
             <div class="row">
 
+
                 <div class="col-lg-3 d-lg-block col-authors">
-                    <div class="co-authors mb-4 mb-md-0">
 
-                        <div class="co-section-title mb-3">
-                            <p class="title"> كُتّاب المجتمع </p>
-                        </div><!-- co-section-title -->
+                    <div class="banner-wrapper mb-4">
+                        <a href="#">
+                            <img src="assets/images/banner-0001.png" class="img-fluid w-100 banner">
+                        </a>
+                    </div>
 
-                        <div class="authors-list">
+                    <div class="banner-wrapper">
+                        <a href="#">
+                            <img src="assets/images/banner-0001.png" class="img-fluid w-100 banner">
+                        </a>
+                    </div>
 
-                            <?php foreach (range(0, 4) as $i) { ?>
-
-                                <div class="one-author">
-                                    <div class="co-image">
-                                        <a href="author-single.php">
-                                            <img src="assets/images/author.jpg" class="img-fluid">
-                                        </a>
-                                    </div><!-- co-image -->
-                                    <div class="co-details">
-                                        <a href="author-single.php">
-                                            <p class="color-black name m-0 bold"> د. على الصلابي </p>
-                                        </a>
-                                        <p class="description m-0 small"> كاتب ومؤرخ ومحلل سياسي ليبي </p>
-                                    </div><!-- co-details -->
-                                </div><!-- one-author -->
-
-                            <?php } ?>
-                        </div><!-- authors-list -->
-
-
-
-                    </div><!-- co-authors -->
                 </div><!-- col-lg-3 -->
 
                 <div class="col-lg-6 col-sliders">
@@ -264,32 +243,55 @@
 
     </section><!-- co-intro-section -->
 
-    <div class="container mb-5">
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="banner-wrapper">
-                    <a href="#">
-                        <img src="assets/images/banner-0001.png" class="img-fluid banner">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="banner-wrapper">
-                    <a href="#">
-                        <img src="assets/images/banner-0002.png" class="img-fluid banner">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="banner-wrapper">
-                    <a href="#">
-                        <img src="assets/images/banner-0003.png" class="img-fluid banner">
-                    </a>
-                </div>
-            </div>
+    <section class="co-authers pb-4">
+
+        <div class="container">
+
+            <div class="co-section-title mb-5">
+                <p class="title"> كُتّاب المجتمع </p>
+                <a href="author-list.php"> مشاهدة المزيد <i class="fa fa-chevron-right"></i> </a>
+            </div><!-- co-section-title -->
+
+            <div class="co-default-slider">
+                <div class="co-swiper-slider">
+                    <div class="swiper default-six-swiper arrows-left-right">
+
+                        <div class="swiper-wrapper">
+                            <?php foreach (range(0, 12) as $i) { ?>
+                                <div class="swiper-slide">
+                                    <div class="slide-content">
+                                        <div class="author-card">
+
+                                            <img src="assets/images/author.jpg" class="img-fluid image mb-1 author-image-in-card" alt="">
+
+                                            <a href="show-author-details.php" class="name"> د.أشرف دوابه </a>
+
+                                        </div><!-- author-card -->
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div> <!-- swiper-wrapper -->
+                        <div class="co-default-swiper-navigation">
+                            <div class="swiper-button-prev default-swiper-button-prev">
+                            </div>
+                            <div class="swiper-button-next default-swiper-button-next">
+                            </div>
+                        </div> <!-- co-default-swiper-navigation -->
+
+                    </div> <!-- swiper secondary-swiper -->
+
+                </div> <!-- co-swiper-slider -->
+            </div><!-- co-default-slider -->
+
+
+
+
+
         </div>
-    </div>
+
+
+    </section>
 
     <section class="co-media section-bg-dark py-5">
         <div class="container">
