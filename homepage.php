@@ -244,7 +244,7 @@
     </section><!-- co-intro-section -->
 
 
-    <section class="co-authers pb-4">
+    <section class="co-author pb-4">
 
         <div class="container">
 
